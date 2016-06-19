@@ -104,22 +104,6 @@
 		<div id="icon">
 	    	<img src="icons/아이콘.png">
 	    </div>
-	    <div class="icons" id="Re">
-	    	<img src="icons/Re.png" style="width:150px;">
-	    	<p>Recommendations</p>
-	    </div>
-	    <div class= "icons" id="Filter">
-	    	<img src="icons/Filter.png" style="width:150px">
-	    	<p>Filter</p>
-	    </div>
-	    <div class="icons" id="Production">
-	    	<img src="icons/P.png" style="width:150px;">
-	    	<p>Productions</p>
-	    </div>
-	    <div id="Filter-Ops">
-	    	<img src="icons/Filter.png">
-
-	    </div>
 
 
 	    <div class="layer" id="grey">
@@ -127,7 +111,7 @@
 	    <div id="bottom-line"></div>
 
 		<div class="container" id="Description" style="display: none;">
-		<p>></p>
+		<p style="cursor:pointer; margin-bottom:0px;">></p>
 		<div class="thumbnail">
 			<img src="">
 		</div>
@@ -240,7 +224,7 @@
     <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
-    <a class="close" style="display:none;">×</a>
+    <a class="close">×</a>
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
@@ -315,7 +299,7 @@
            <li id="Gainax" class="list-group-item Production">Gaianx</li>
            <li id="Doga-Kobo" class="list-group-item Production">Doga Kobo</li>
            <li id="Mad-House" class="list-group-item Production">Mad House</li>
-           <li id="Lerche" class="list-group-item Production">Bones</li>
+           <li id="Bones" class="list-group-item Production">Bones</li>
            <li id="Lerche" class="list-group-item Production">Lerche</li>
            <li id="Sunrise" class="list-group-item Production">Sunrise</li>
          </ul>
@@ -323,7 +307,6 @@
            <li class="list-group-item active" style="font-size:50px;"><strong>Productions</strong><span style="top: 0px;left: 50px;font-size:25px;" class="glyphicon glyphicon-chevron-right"></span></li>
            <li id="KyoAni" class="list-group-item Production">Kyoto Animation</li>
            <li id="A-1-Pictures"class="list-group-item Production">A-1 Pictures</li>
-           <li id="P-A-Works" class="list-group-item Production">P.A.Works</li>
            <li id="J-C-Staff" class="list-group-item Production">J.C.Staff</li>
            <li id="Shaft" class="list-group-item Production">Shaft</li>
            <li id="Production-I-G" class="list-group-item Production">Production I.G.</li>
@@ -384,15 +367,40 @@
             </div>
         </div>
     <div class="animes">
+    	<!--<div class="icons" id="Re">
+	    	<img src="icons/Re.png" style="width:150px;">
+	    	<p>Recommendations</p>
+	    </div>
+	    <div id="Filter">
+	    	<img src="icons/Filter.png" style="width:150px">
+	    	<p>Filter</p>
+	    </div>-->
+	    <div class="icon-container" style="width:100%; position:fixed;">
+	    <div class="container-fluid">
+	    	<div class="col-md-5"></div>
+	    	<div class="col-md-2">
+	    	<div id="Production">
+	    	    <img src="icons/P.png" style="width:150px;">
+	    	    <p>Production</p>
+	        </div>
+	        </div>
+	        <div class="col-md-5"></div>
+
+	    </div>
+	    </div>
+	    <!--<div id="Filter-Ops">
+	    	<img src="icons/Filter.png">
+
+	    </div>-->
 		<div class="container">
 			<div id="스즈미야-하루히의-우울" class="thumbnail anime School Romance Comedy SF Slice-of-Life">
-					<h6>Suzumiya Haruhi no Yuutsu <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Suzumiya Haruhi no Yuutsu <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/스즈미야-하루히의-우울.jpg">
 				</div>
 		</div>
 		<div class="container">
 			<div id="스즈미야-하루히의-소실" class="thumbnail anime School Romance Comedy SF Slice-of-Life">
-					<h6>Suzumiya Haruhi no Shoushitsu <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Suzumiya Haruhi no Shoushitsu <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/스즈미야-하루히의-소실.jpg">
 				</div>
 		</div>
@@ -400,55 +408,55 @@
 			<div class="col-md-6">
 				
 				<div id="중2병이라도-사랑이-하고-싶어" class="thumbnail anime Comedy Slice-of-Life School">
-					<h6>Chunnibyo demo Koi ga Shitai! <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Chunnibyo demo Koi ga Shitai! <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/중2병이라도-사랑이-하고-싶어!.jpg">
 				</div>
 				<div id="역시-내-청춘-러브코메디는-잘못됐다" class="thumbnail anime Comedy Romance School">
-					<h6>Yahari Ore no Seishun Love Comedy wa Machigatteiru <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Yahari Ore no Seishun Love Comedy wa Machigatteiru <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/역시-내-청춘-러브코메디는-잘못됐다.jpg">
 				</div>
 				<div id="노-게임-노-라이프" class="thumbnail anime Adventure Psychological Comedy Fantasy">
-					<h6>No Game No Life <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>No Game No Life <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/노-게임-노-라이프.jpg">
 
 				</div>
 				<div id="KILL-LA-KILL" class="thumbnail anime Action Comedy School">
-					<h6>KILL LA KILL <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>KILL LA KILL <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/KILL-LA-KILL.jpg">
 
 				</div>
 				<div id="원펀맨" class="thumbnail anime Action Comedy">
-					<h6>ONE PUNCH MAN <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>ONE PUNCH MAN <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/원펀맨.jpg">
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div id="아카메가-벤다" class="thumbnail anime Action Adventure Gore">
-					<h6>Akame ga kill! <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Akame ga kill! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/아카메가-벤다!.jpg">
 
 				</div>
 				<div id="진격의-거인" class="thumbnail anime Action Drama Fantasy Gore">
-					<h6>Attack on Titan <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Attack on Titan <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/진격의-거인.jpg">
 
 				</div>
 				<div id="역경무뢰-카이지" class="thumbnail anime Thriller Psychological">
-					<h6>Gyakkyou Burai Kaiji <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Gyakkyou Burai Kaiji <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/역경무뢰-카이지.jpg">
 
 				</div>
 				<div id="SteinsGate" class="thumbnail anime SF Thriller">
-					<h6>Steins;Gate <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Steins;Gate <img style="width:35px;"src="icons/Gallery.png"></h6>
 				
 						<img src="img/Steins;Gate.jpg">
 
 				</div>
 				<div id="마법소녀-마도카-마기카" class="thumbnail anime Horror Fantasy Thriller Psychological">
-					<h6>Mahou Shoujo Madoka Magica <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Mahou Shoujo Madoka Magica <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/마법소녀-마도카-마기카.jpg">
 
@@ -458,7 +466,7 @@
 			<div class="container">
 				<div class="col-md-4">
 				<div id="Another" class="thumbnail anime Horror Mystery School Thriller">
-					<h6>Another <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Another <img style="width:35px;"src="icons/Gallery.png"></h6>
 				
 						<img src="img/Another.jpg">
 
@@ -466,7 +474,7 @@
 			</div>
 			<div class="col-md-4">
 				<div id="SHIRO-BAKO" class="thumbnail anime Drama Comedy">
-		    		<h6>SHIRO BAKO <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>SHIRO BAKO <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/SHIRO-BAKO.jpg">
 
@@ -474,7 +482,7 @@
 			</div>
 			<div class="col-md-4">
 				<div id="블랙-불릿" class="thumbnail anime Action SF">
-		    		<h6>Black Bullet <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Black Bullet <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/BLACK BULLET.jpg">
 
@@ -483,26 +491,26 @@
 			</div>
 			<div class="container">
 			<div id="모노가타리-시리즈" class="thumbnail anime Mystery Romance Psychological Supernatural">
-				<h6>Monogatari Series <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Monogatari Series <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/모노가타리-시리즈2.jpg">
 
 			</div>
 			 <div class="col-md-4">
 		    	<div id="바케모노가타리" class="thumbnail anime Mystery Romance Supernatural Psychological">
-				<h6>Bakemonogatari <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Bakemonogatari <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/바케모노가타리.jpg">
 
 			    </div>
 			    <div id="모노가타리-시리즈-2nd-Season" class="Psychological thumbnail anime Mystery Romance Supernatural">
-				<h6>Monogatari Series Second Season <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Monogatari Series Second Season <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/모노가타리-세컨드.jpg">
 
 			    </div>
 			    <div id="키즈모노가타리-철혈" class="thumbnail anime Mystery Psychological Romance Supernatural">
-			    <h6>Kizumonogatari I: Tekketsu <img style="width:35px;"src="icons/gallery.png"></h6>
+			    <h6>Kizumonogatari I: Tekketsu <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/키즈모노가타리-철혈.jpg">
 
@@ -510,19 +518,19 @@
 		    </div>
 		    <div class="col-md-4">
 		    	<div id="니세모노가타리" class="thumbnail anime Mystery Romance Supernatural Psychological">
-				<h6>Nisemonogatari <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Nisemonogatari <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/니세모노가타리.jpg">
 
 			    </div>
 			    <div id="츠키모노가타리" class="thumbnail anime Mystery Romance Supernatural Psychological">
-				<h6>Tsukimonogatari <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Tsukimonogatari <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/츠키모노가타리.jpg">
 
 			    </div>
 			    <div id="키즈모노가타리-열혈" class="thumbnail anime Mystery Psychological Romance Supernatural">
-			    <h6>Kizumonogatari II: Nekketsu <img style="width:35px;"src="icons/gallery.png"></h6>
+			    <h6>Kizumonogatari II: Nekketsu <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/키즈모노가타리-열혈.jpg">
 
@@ -531,19 +539,19 @@
 		    </div>
 		    <div class="col-md-4">
 		    	<div id="네코모노가타리-흑" class="thumbnail anime Mystery Psychological Romance Supernatural">
-				<h6>Nekomonogatari Kuro <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Nekomonogatari Kuro <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/네코모노가타리-흑.jpg">
 
 			    </div>
 			    <div id="오와리모노가타리" class="thumbnail anime Mystery Romance Supernatural Psychological">
-				<h6>Owarimonogatari <img style="width:35px;"src="icons/gallery.png"></h6>
+				<h6>Owarimonogatari <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/오와리모노가타리.png">
 
 			    </div>
 			    <div id="코요미모노가타리" class="thumbnail anime Mystery Romance Supernatural Psychological">
-			    <h6>Koyomimonogatari <img style="width:35px;"src="icons/gallery.png"></h6>
+			    <h6>Koyomimonogatari <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/코요미모노가타리.jpg">
 
@@ -555,7 +563,7 @@
 		    	<div class="col-md-1"></div>
 		    	<div class="col-md-10">
 		    		<div class="thumbnail anime">
-		    			<h6>Oshino Shinobu <img style="width:35px;"src="icons/gallery.png"></h6>
+		    			<h6>Oshino Shinobu <img style="width:35px;"src="icons/Gallery.png"></h6>
 		    			<img src="img/오시노-시노부.jpg">
 		    		</div>
 		    	</div>
@@ -565,7 +573,7 @@
 		    	<div class="col-md-1"></div>
 		    	<div class="col-md-10">
 		    		<div id="FULL-METAL-ALCHEMIST" class="thumbnail anime Action Adventure Drama">
-		    		<h6>FULL METAL ALCHEMIST <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>FULL METAL ALCHEMIST <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/FULL METAL ALCHEMIST.jpg">
 
@@ -576,7 +584,7 @@
 		    <div class="container">
 		    	<div class="col-md-4">
 		    		<div id="케이온" class="thumbnail anime Music School Slice-of-Life">
-		    		<h6>K-ON! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>K-ON! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/K-ON!!.jpg">
 
@@ -585,7 +593,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="혈계전선" class="thumbnail anime Action Fantasy">
-		    		<h6>Kekkai Sensen <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Kekkai Sensen <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/혈계전선.jpg">
 
@@ -593,7 +601,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="천원돌파-그렌라간" class="thumbnail anime Mecha Action Adventure">
-		    		<h6>Tengen Toppa Gurren Lagann <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6 style="font-size:20px;">Tengen Toppa Gurren Lagann <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/천원돌파 그렌라간.jpg">
 
@@ -601,13 +609,13 @@
 		    	</div>
 		    	<div class="col-md-6">
 		    		<div id="식극의-소마" class="thumbnail anime School Ecchi">
-		    		<h6>Shoukugeki no Souma <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Shoukugeki no Souma <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/식극의 소마.jpg">
 
 			        </div>
 			        <div id="미래일기" class="thumbnail anime Horror Thriller Mystery Psychological Gore">
-		    		<h6>Mirai Nikki <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Mirai Nikki <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/미래일기.jpg">
 
@@ -615,13 +623,13 @@
 		    	</div>
 		    	<div class="col-md-6">
 		    		<div id="니세코이" class="thumbnail anime Harem Romance Comedy">
-		    		<h6>Nisekoi <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Nisekoi <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/니세코이.jpg">
 
 			        </div>
 			        <div id="토라도라" class="thumbnail anime Romance Comedy Slice-of-Life School">
-		    		<h6>Toradora! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Toradora! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/토라도라.jpg">
 
@@ -631,25 +639,25 @@
 		    <div class="container">
 		    	<div class="col-md-4">
 		    		<div id="메카쿠시티-엑터즈" class="thumbnail anime Mystery Romance">
-		    		<h6>Mekakucity Actors <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Mekakucity Actors <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/메카쿠시티-엑터즈.jpg">
 
 			        </div>
 			        <div id="농림" class="thumbnail anime School Romance Comedy Ecchi">
-		    		<h6>Nourin <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Nourin <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/농림.jpg">
 
 			        </div>
 			        <div id="기어와라-냐루코-양" class="thumbnail anime">
-		    		<h6>Haiyore! Nyaruko-san! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Haiyore! Nyaruko-san! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/기어와라!-냐루코-양.jpg">
 
 			        </div>
 			        <div id="논논비요리" class="thumbnail anime Slice-of-Life Comedy School">
-		    		<h6>Non Non Biyori <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Non Non Biyori <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/논논비요리.jpg">
 
@@ -658,25 +666,25 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="월간소녀-노자키-군" class="thumbnail anime Romance Comedy Slice-of-Life School">
-		    		<h6>Gekkan Shoujo Nozaki-kun <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Gekkan Shoujo Nozaki-kun <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/월간소녀-노자키-군.jpg">
 
 			        </div>
 			        <div id="빙과" class="thumbnail anime Mystery School Slice-of-Life">
-		    		<h6>Hyouka <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Hyouka <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/빙과.jpg">
 
 			        </div>
 			        <div id="내-여자친구와-소꿉친구가-완전-수라장" class="thumbnail anime Romance Comedy Harem School">
-		    		<h6 style="font-size:20px;">Ore no Kanojo to Osananajimi ga Shuraba Sugiru <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6 style="font-size:20px;">Ore no Kanojo to Osananajimi ga Shuraba Sugiru <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/내-여자친구와-소꿉친구가-완전-수라장.jpg">
 
 			        </div>
 			        <div id="시원찮은-그녀를-위한-육성방법" class="thumbnail anime Romance Comedy Harem School">
-		    		<h6 style="font-size:20px;">Saenai Heroine no Sodatekata<img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6 style="font-size:20px;">Saenai Heroine no Sodatekata<img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/시원찮은-그녀를-위한-육성방법.jpg">
 
@@ -685,25 +693,25 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="기생수" class="thumbnail anime SF Drama Action Gore Psychological">
-		    		<h6>Paracyte <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Paracyte <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/기생수.jpg">
 
 			        </div>
 			        <div id="WORKING" class="thumbnail anime Comedy Slice-of-Life">
-		    		<h6>WORKING! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>WORKING! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/WORKING!.jpg">
 
 			        </div>
 			        <div id="GJ부" class="thumbnail anime School Comedy Slice-of-Life">
-		    		<h6>GJ Club <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>GJ Club <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/GJ부.jpg">
 
 			        </div>
 			        <div id="아마기-브릴리언트-파크" class="thumbnail anime Comedy Fantasy">
-		    		<h6>Amagi Brilliant Park <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Amagi Brilliant Park <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/아마기-브릴리언트-파크.jpg">
 
@@ -714,13 +722,13 @@
 		    <div class="container">
 		    	<div class="col-md-6">
 		    		<div id="PSYCHO-PASS" class="thumbnail anime SF Action Psychological Police">
-		    		<h6>PSYCHO-PASS <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>PSYCHO-PASS <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/PSYCHO-PASS.jpg">
 
 			        </div>
 			        <div id="경계의-저편" class="thumbnail anime Fantasy Slice-of-life Action">
-		    		<h6>Kyokai no Kanata <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Kyokai no Kanata <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/경계의-저편.jpg">
 
@@ -728,13 +736,13 @@
 		    	</div>
 		    	<div class="col-md-6">
 		    		<div id="DEATH-NOTE" class="thumbnail anime Police Thriller">
-		    		<h6>DEATH NOTE <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>DEATH NOTE <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/DEATH-NOTE.jpg">
 
 			        </div>
 			        <div id="미확인으로-진행형" class="thumbnail anime Romance Comedy Slice-of-Life School">
-		    		<h6>Mikakunin de Shinkoukei <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Mikakunin de Shinkoukei <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/미확인으로-진행형.jpg">
 
@@ -743,7 +751,7 @@
 		    </div>
 		    <div class="container">
 			<div id="나만이-없는-거리" class="thumbnail anime Mystery Psychological">
-					<h6>Boku dake ga Inai Machi <img style="width:35px;"src="icons/gallery.png"></h6>
+					<h6>Boku dake ga Inai Machi <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/나만이-없는-거리.jpg">
 
@@ -752,7 +760,7 @@
 		    <div class="container">
 		    	<div class="col-md-4">
 		    		<div id="학교생활" class="thumbnail anime Horror Thriller Slice-of-Life School Psychological">
-		    		<h6>Gakkougurashi! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Gakkougurashi! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/학교생활.jpg">
 
@@ -760,7 +768,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="건어물-여동생-우마루-짱" class="thumbnail anime Comedy Slice-of-Life">
-		    		<h6>Himouto! Umaru-chan! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Himouto! Umaru-chan! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/건어물-여동생-우마루-짱.jpg">
 
@@ -768,7 +776,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="데스-퍼레이드" class="thumbnail anime Slice-of-Life Drama Mystery Thriller Psychological">
-		    		<h6>Death Parade <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Death Parade <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/데스-퍼레이드.jpg">
 
@@ -780,7 +788,7 @@
 		    	
 		    	<div class="col-md-4">
 		    		<div id="페이트-제로" class="thumbnail anime Gore Action Fantasy">
-		    		<h6>Fate/Zero <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Fate/Zero <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/페이트-제로.jpg">
 
@@ -788,7 +796,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="페이트-스테이-나이트-Unlimited-Blade-Works" class="thumbnail anime Gore Action Fantasy">
-		    		<h6>Fate/stay Night <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Fate/stay Night <img style="width:35px;"src="icons/Gallery.png"></h6>
 		    		<h6>Unlimited Blade Works </h6>
 
 						<img src="img/페이트-스테이-나이트-Unlimited-Blade-Works.jpg">
@@ -797,7 +805,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="페이트-스테이-나이트-Heavens-Feel" class="thumbnail anime Gore Action Fantasy">
-		    		<h6>Fate/stay NIght <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Fate/stay NIght <img style="width:35px;"src="icons/Gallery.png"></h6>
 		    		<h6>Heaven's Feel </h6>
 
 						<img src="img/페이트-스테이-나이트-Heaven's-Feel.jpg">
@@ -806,7 +814,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="아이돌-마스터" class="thumbnail anime Music Drama Comedy">
-		    		<h6>The Idolm@ster <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>The Idolm@ster <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/The-Idolm@ster.jpg">
 
@@ -814,7 +822,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="오레모노가타리" class="thumbnail anime Comedy Romance">
-		    		<h6>Ore Monogatari!! <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Ore Monogatari!! <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/오레모노가타리.gif">
 
@@ -822,7 +830,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="신만이-아는-세계" class="thumbnail anime Harem Romance Fantasy">
-		    		<h6>World God only knows <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>World God only knows <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/신만이-아는-세계.jpg">
 
@@ -832,20 +840,20 @@
 		    <div class="container">
 		    	<div class="col-md-6">
 		    		<div id="4월은-너의-거짓말" class="thumbnail anime Music Romance School Drama">
-		    		<h6>Shigatsu wa Kimi no Uso <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Shigatsu wa Kimi no Uso <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/4월은-너의-거짓말.jpg">
 			        </div>
 		    	</div>
 		    	<div class="col-md-6">
 		    		<div id="아노하나" class="thumbnail anime Drama Slice-of-Life">
-		    		<h6>Anohana <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Anohana <img style="width:35px;"src="icons/Gallery.png"></h6>
 						<img src="img/아노하나.jpg">
 			        </div>
 		    	</div>
 		    </div>
 		    <div class="container">
 		    	<div id="충사" class="thumbnail anime Slice-of-Life Supernatural Adventure Mystery">
-		    		<h6>Mushishi <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>Mushishi <img style="width:35px;"src="icons/Gallery.png"></h6>
 		    		<img src="img/충사.jpg">
 		    	</div>
 		    </div>
@@ -853,7 +861,7 @@
 		    <!--<div class="container">
 		    	<div class="col-md-4">
 		    		<div id="소드-아트-온라인" class="thumbnail anime">
-		    		<h6>소드 아트 온라인<img style="width:35px;"src="icons/gallery.png"> <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>소드 아트 온라인<img style="width:35px;"src="icons/Gallery.png"> <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/소드-아트-온라인.jpg">
 
@@ -861,7 +869,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="도쿄구울" class="thumbnail anime">
-		    		<h6>도쿄구울<img style="width:35px;"src="icons/gallery.png"> <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>도쿄구울<img style="width:35px;"src="icons/Gallery.png"> <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/도쿄구울.jpg">
 
@@ -869,7 +877,7 @@
 		    	</div>
 		    	<div class="col-md-4">
 		    		<div id="암살교실" class="thumbnail anime">
-		    		<h6>암살교실<img style="width:35px;"src="icons/gallery.png"> <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6>암살교실<img style="width:35px;"src="icons/Gallery.png"> <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/암살교실.jpg">
 
@@ -878,7 +886,7 @@
 		    </div>-->
 		    <!--<div class="col-md-">
 		    		<div id="" class="thumbnail anime">
-		    		<h6><img style="width:35px;"src="icons/gallery.png"> <img style="width:35px;"src="icons/gallery.png"></h6>
+		    		<h6><img style="width:35px;"src="icons/Gallery.png"> <img style="width:35px;"src="icons/Gallery.png"></h6>
 
 						<img src="img/.jpg">
 

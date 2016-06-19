@@ -1,15 +1,15 @@
 $(document).ready(function (){
     $(document).keyup(function(e) {
      if (e.keyCode == 27) {
-        $("#myCarousel, #grey").fadeOut();
+        $("#grey").fadeOut();
         $("#music-player-container").fadeIn();
-        $("#info-display, .icons, #grey, .Productions, .Dividers, #Production_Display, #Production_Description, .tags, #Recommendations, .Re-Ops, .close").fadeOut();
-        $("#ThemeAnime-1").fadeOut();
+        $("#info-display, .icon-container, #grey, .Productions, .Dividers, #Production_Display, #Production_Description, .tags, #Recommendations, .Re-Ops, #genre-container").fadeOut();
+        $("#ThemeAnime-1").fadeOut().animate({left:"100%"});
      }
     });
     
-    $(".icons img").click(function(){
-        $(".icons").fadeOut();
+    $(".icon-container img").click(function(){
+        $(".icon-container").fadeOut();
     });
     $("#bottom-line").mouseover(function(){
         $("#icon").fadeIn();
@@ -19,8 +19,19 @@ $(document).ready(function (){
     });
     $("#icon").click(function(){
         $("#grey").fadeToggle();
-        $(".icons").fadeToggle();
+        $(".icon-container").fadeToggle();
         $("#Description").fadeOut();
         $("#music-player-container").fadeToggle();
+    });
+    $("a.close").click(function(){
+        $("#grey").fadeOut();
+        $("#music-player-container").fadeIn();
+    });
+    $(".slider").slick({
+        dots: false,
+        slidesToShow: 5,
+        infinite:true,
+        autoplay:true
+        //variableWidth:true
     });
 });

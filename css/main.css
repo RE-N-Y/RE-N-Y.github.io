@@ -1,17 +1,72 @@
-ul.dropdown-menu {
+#genre-container {
+	position: fixed;
+	background-color: #141414;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 	z-index: 30;
-	width:300px;
 }
-.scrollable-menu {
-    height: auto;
-    max-height: 400px;
-    overflow-x: hidden;
+.slider {
+    width: 100%;
+    margin: 100px auto;
+    margin:30px;
 }
-
+#genre-content {
+	color:white;
+}
+#genre-container ul li a{
+	font-size: 25px;
+	color:white;
+}
+#genre-container li.active a{
+	color: #141414;
+}
+#genre-container ul li a:hover{
+	color:#141414;
+}
+ul.lightSlider {
+	margin-top: 20px;
+}
 #home h3 {
 	font-size: 115px;
 	margin-left: 0px;
 	font-family: ADAM;
+}
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+.tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
 }
 #home {
     background-color: #ff3300;
@@ -20,7 +75,7 @@ ul.dropdown-menu {
 .ReInfo {
 	position: fixed;
 	top:0%;
-	width:110%;
+	width:100%;
 	height:120%;
 	z-index: 20;
 	left:100%;
@@ -33,7 +88,7 @@ ul.dropdown-menu {
     margin-bottom: 0px; 
 }
 .nav-tabs > li.active {
-    margin-bottom: -10px;    
+    margin-bottom: 0px;    
 }
 .nav-tabs > li > a
 {
@@ -282,14 +337,6 @@ div.section h4 {
 /*#Production_Display div .thumbnail h3 {
 
 }*/
-a:link {
-    text-decoration: none;
-    color:white;
-}
-a:visited {
-    text-decoration: none;
-    color:white;
-}
 li.list-group-item {
 	width:100%;
 	font-size:20px;
@@ -341,14 +388,12 @@ li.list-group-item {
     -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
     transform: rotate(-30deg);
 }
-.icons {
-	position: fixed;
-	top: 45%;
-	font-weight: bold;
-	width:150px;
+.icon-container { 
+	top:45%;
+	font-weight: bolder;
+	color: white;
+	font-size: 16px;
 	z-index: 10;
-	color:black;
-	display: none;
 }
 .layer {
 	display: none;
@@ -362,6 +407,11 @@ li.list-group-item {
 	top:12%;
 	right:3%;
 	position: absolute;
+}
+.image {
+    display: block;
+    width: auto;
+    max-height: 310px;
 }
 #E1 {
 	background-color:black;
@@ -378,19 +428,30 @@ li.list-group-item {
 	bottom:-300px;
 	right:-300px;
 }
-#L1 {
-	background-color: black;
-	width:3000px;
-	height:2px;
-	top:10%;
-	
+#E3 {
+	background-color:#e6e6e6;
+	width:1000px;
+	height:300px;
+	bottom:-330px;
+	left:-280px;
+	z-index: 31;
 }
-#L2 {
-	background-color: black;
-	width:4000px;
-	height:2px;
-	top:-500px;
-	left:-300px;
+#E4 {
+	background-color:#e6e6e6;
+	width:1000px;
+	height:300px;
+	top:-350px;
+	right:-200px;
+	z-index: 31;
+}
+.Dividers-Genre {
+	position: fixed;
+	width:300px;
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    z-index: 10;
+    display: none;
 }
 .Dividers {
 	position: fixed;
@@ -424,9 +485,6 @@ li.list-group-item {
 #Production p {
 	margin-left:33px;
 }
-#Production {
-	left: 45.7%; 
-}
 #Filter p {
 	margin-left:59px;
 }
@@ -453,7 +511,24 @@ li.list-group-item {
 	z-index:20;
 	display: none;
 }
-
+a.reverse {
+	padding: 15px;
+    right: 15px;
+    left: auto;
+    margin: -15px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    opacity: .8;
+    float: right;
+    font-weight: 700;
+    display: none;
+}
 #icon img {
 	width:40px;
 }
@@ -462,17 +537,19 @@ li.list-group-item {
 }
 #Description {
 	margin-left: 0px;
-	width:250px;
+	width:280px;
 	height: 1000px;
 	z-index: 11;
 	margin-top: 0px;
 	position: fixed;
 	margin-bottom:50px;
-	top: 77px;
+	top: 40px;
 	background-color:white;
 	border-radius: 7px;
-	left:82.5%;
 	display: none;
+	clear: both;
+	float:right;
+	right:0%;
 }
 #Description ul {
 	padding-left:6px;
@@ -484,12 +561,7 @@ li.list-group-item {
 }
 h2, h3, h6 {
 	font-weight: bold;
-	font-family: 'Nanum Gothic',sans-serif;
-}
-
-h1, h2 {
-	position: relative;
-	margin-left: 140px;
+	font-family:'Raleway','Nanum Gothic',sans-serif;
 }
 
 h6 {

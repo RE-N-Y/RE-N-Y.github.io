@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $("div.anime h6 > img").click(function(){
+        $("a.close").show();
+    });
 	$("#니세코이 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
                 'Gallery-Images/니세코이/End-Card-S1/1.jpg',
@@ -40,7 +43,7 @@ $(document).ready(function(){
                 'Gallery-Images/니세코이/End-Card-S1/19.jpg',
 
                 'Gallery-Images/니세코이/End-Card-S1/20.jpg'
-            ]);
+            ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#바케모노가타리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -60,7 +63,7 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/End-Card-Bake/14.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-Bake/15.jpg'
 
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#니세모노가타리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -75,17 +78,17 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/End-Card-Nise/9.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-Nise/10.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-Nise/11.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#네코모노가타리-흑 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/모노가타리-시리즈/End-Card-Neko-Kuro/1.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#코요미모노가타리 h6 img").click(function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/모노가타리-시리즈/Koyomi/1.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#모노가타리-시리즈-2nd-Season h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -113,12 +116,12 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/End-Card-S2/25.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-S2/26.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-S2/27.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#츠키모노가타리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/모노가타리-시리즈/End-Card-Tsuki/1.jpg',
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#오와리모노가타리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -134,7 +137,7 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/End-Card-Owari/10.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-Owari/11.jpg',
             'Gallery-Images/모노가타리-시리즈/End-Card-Owari/12.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#키즈모노가타리-철혈 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -145,7 +148,7 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/Kizu-1/5.jpg',
             'Gallery-Images/모노가타리-시리즈/Kizu-1/6.jpg',
             'Gallery-Images/모노가타리-시리즈/Kizu-1/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#키즈모노가타리-열혈 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -155,7 +158,7 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/Kizu-2/4.png',
             'Gallery-Images/모노가타리-시리즈/Kizu-2/5.jpg',
             'Gallery-Images/모노가타리-시리즈/Kizu-2/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#스즈미야-하루히의-우울 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -201,7 +204,7 @@ $(document).ready(function(){
             'Gallery-Images/스즈미야-하루히의-우울/39.jpg',
             'Gallery-Images/스즈미야-하루히의-우울/40.jpg',
             'Gallery-Images/스즈미야-하루히의-우울/41.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#모노가타리-시리즈 h6 img").on('click',function(){
     var gallery = blueimp.Gallery([        
@@ -235,7 +238,7 @@ $(document).ready(function(){
             'Gallery-Images/모노가타리-시리즈/28.jpg',
             'Gallery-Images/모노가타리-시리즈/29.png',
             'Gallery-Images/모노가타리-시리즈/30.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#나만이-없는-거리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -250,7 +253,7 @@ $(document).ready(function(){
             'Gallery-Images/나만이-없는-거리/9.jpg',
             'Gallery-Images/나만이-없는-거리/10.jpg',
             'Gallery-Images/나만이-없는-거리/11.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#중2병이라도-사랑이-하고-싶어 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -260,7 +263,7 @@ $(document).ready(function(){
                 'Gallery-Images/중2병이라도-사랑이-하고-싶어/4.jpg',
             'Gallery-Images/중2병이라도-사랑이-하고-싶어/5.jpg',
             'Gallery-Images/중2병이라도-사랑이-하고-싶어/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#케이온 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -291,7 +294,7 @@ $(document).ready(function(){
             'Gallery-Images/케이온/25.gif',
             'Gallery-Images/케이온/26.jpg',
             'Gallery-Images/케이온/27.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#역시-내-청춘-러브코메디는-잘못됐다 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -309,14 +312,14 @@ $(document).ready(function(){
             'Gallery-Images/Oregairu/13.png',
             'Gallery-Images/Oregairu/14.png'
         
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#역경무뢰-카이지 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/카이지/1.jpg',
             'Gallery-Images/카이지/2.jpg',
             'Gallery-Images/카이지/3.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#SteinsGate h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -327,7 +330,7 @@ $(document).ready(function(){
             'Gallery-Images/Steins;Gate/5.jpg',
             'Gallery-Images/Steins;Gate/6.jpg',
             'Gallery-Images/Steins;Gate/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#4월은-너의-거짓말 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -338,7 +341,7 @@ $(document).ready(function(){
             'Gallery-Images/4월은-너의-거짓말/5.jpg',
             'Gallery-Images/4월은-너의-거짓말/6.jpg',
             'Gallery-Images/4월은-너의-거짓말/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#미확인으로-진행형 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -354,7 +357,7 @@ $(document).ready(function(){
             'Gallery-Images/미확인으로-진행형/10.png',
             'Gallery-Images/미확인으로-진행형/11.jpg'
         
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#Another h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -364,7 +367,7 @@ $(document).ready(function(){
             'Gallery-Images/Another/4.jpg',
             'Gallery-Images/Another/5.jpg',
             'Gallery-Images/Another/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#DEATH-NOTE h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -373,7 +376,7 @@ $(document).ready(function(){
             'Gallery-Images/DEATH-NOTE/3.jpg',
             'Gallery-Images/DEATH-NOTE/4.jpg',
             'Gallery-Images/DEATH-NOTE/5.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#페이트-스테이-나이트-Unlimited-Blade-Works h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -385,12 +388,12 @@ $(document).ready(function(){
             'Gallery-Images/FateStay Night UBW/6.jpg',
             'Gallery-Images/FateStay Night UBW/7.png',
             'Gallery-Images/FateStay Night UBW/8.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#페이트-스테이-나이트-Heavens-Feel h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/FateStay Night HF/1.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#페이트-제로 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -401,7 +404,7 @@ $(document).ready(function(){
             'Gallery-Images/FateZero/5.jpg',
             'Gallery-Images/FateZero/6.jpg',
             'Gallery-Images/FateZero/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#GJ부 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -411,7 +414,7 @@ $(document).ready(function(){
             'Gallery-Images/GJ부/4.jpg',
             'Gallery-Images/GJ부/5.jpg',
             'Gallery-Images/GJ부/6.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#내-여자친구와-소꿉친구가-완전-수라장 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -421,7 +424,7 @@ $(document).ready(function(){
             'Gallery-Images/oreshura/4.jpg',
             'Gallery-Images/oreshura/5.jpg',
             'Gallery-Images/oreshura/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#PSYCHO-PASS h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -432,7 +435,7 @@ $(document).ready(function(){
             'Gallery-Images/PSYCHO-PASS/5.jpg',
             'Gallery-Images/PSYCHO-PASS/6.jpg',
             'Gallery-Images/PSYCHO-PASS/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#시원찮은-그녀를-위한-육성방법 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -442,7 +445,7 @@ $(document).ready(function(){
             'Gallery-Images/saenai/4.jpg',
             'Gallery-Images/saenai/5.jpg',
             'Gallery-Images/saenai/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#아이돌-마스터 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -451,7 +454,7 @@ $(document).ready(function(){
             'Gallery-Images/The-Idolm@ster/3.jpg',
             'Gallery-Images/The-Idolm@ster/4.png',
             'Gallery-Images/The-Idolm@ster/5.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#WORKING h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -464,7 +467,7 @@ $(document).ready(function(){
             'Gallery-Images/WORKING/7.jpg',
             'Gallery-Images/WORKING/8.jpg',
             'Gallery-Images/WORKING/9.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#FULL-METAL-ALCHEMIST h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -481,7 +484,7 @@ $(document).ready(function(){
             'Gallery-Images/강철의-연금술사/11.jpg',
             'Gallery-Images/강철의-연금술사/12.jpg',
             'Gallery-Images/강철의-연금술사/13.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#건어물-여동생-우마루-짱 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -492,7 +495,7 @@ $(document).ready(function(){
             'Gallery-Images/건어물-여동생-우마루-짱/5.jpg',
             'Gallery-Images/건어물-여동생-우마루-짱/6.png',
             'Gallery-Images/건어물-여동생-우마루-짱/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#경계의-저편 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -501,7 +504,7 @@ $(document).ready(function(){
             'Gallery-Images/경계의-저편/3.png',
             'Gallery-Images/경계의-저편/4.jpg',
             'Gallery-Images/경계의-저편/5.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#천원돌파-그렌라간 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -510,13 +513,13 @@ $(document).ready(function(){
             'Gallery-Images/그렌라간/3.jpg',
             'Gallery-Images/그렌라간/4.jpg',
             'Gallery-Images/그렌라간/5.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#기생수 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/기생수/1.jpg',
             'Gallery-Images/기생수/2.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#기어와라-냐루코-양 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -527,7 +530,7 @@ $(document).ready(function(){
             'Gallery-Images/기어와라-냐루코-양/5.jpg',
             'Gallery-Images/기어와라-냐루코-양/6.jpg',
             'Gallery-Images/기어와라-냐루코-양/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#노-게임-노-라이프 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -536,7 +539,7 @@ $(document).ready(function(){
             'Gallery-Images/노-게임-노-라이프/3.jpg',
             'Gallery-Images/노-게임-노-라이프/4.jpg',
             'Gallery-Images/노-게임-노-라이프/5.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#논논비요리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -550,7 +553,7 @@ $(document).ready(function(){
             'Gallery-Images/논논비요리/8.jpg',
             'Gallery-Images/논논비요리/9.jpg',
             'Gallery-Images/논논비요리/10.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#농림 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -558,7 +561,7 @@ $(document).ready(function(){
             'Gallery-Images/농림/2.jpg',
             'Gallery-Images/농림/3.jpg',
             'Gallery-Images/농림/4.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#데스-퍼레이드 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -568,7 +571,7 @@ $(document).ready(function(){
             'Gallery-Images/데스-퍼레이드/4.jpg',
             'Gallery-Images/데스-퍼레이드/5.jpg'
         
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#마법소녀-마도카-마기카 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -585,7 +588,7 @@ $(document).ready(function(){
             'Gallery-Images/마법소녀-마도카-마기카/11.jpg',
             'Gallery-Images/마법소녀-마도카-마기카/12.jpg',
             'Gallery-Images/마법소녀-마도카-마기카/13.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#메카쿠시티-엑터즈 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -610,7 +613,7 @@ $(document).ready(function(){
             'Gallery-Images/메카쿠시티-엑터즈/20.jpg',
             'Gallery-Images/메카쿠시티-엑터즈/21.jpg',
             'Gallery-Images/메카쿠시티-엑터즈/22.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#미래일기 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -621,14 +624,14 @@ $(document).ready(function(){
             'Gallery-Images/미래일기/5.jpg',
             'Gallery-Images/미래일기/6.jpg',
             'Gallery-Images/미래일기/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#블랙-불릿 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/블랙-불릿/1.jpg',
             'Gallery-Images/블랙-불릿/2.jpg',
             'Gallery-Images/블랙-불릿/3.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#빙과 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -640,7 +643,7 @@ $(document).ready(function(){
             'Gallery-Images/빙과/6.jpg',
             'Gallery-Images/빙과/7.jpg',
             'Gallery-Images/빙과/8.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#SHIRO-BAKO h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -659,7 +662,7 @@ $(document).ready(function(){
             'Gallery-Images/시로바코/13.jpg',
             'Gallery-Images/시로바코/14.png',
             'Gallery-Images/시로바코/15.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#식극의-소마 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -671,7 +674,7 @@ $(document).ready(function(){
             'Gallery-Images/식극의-소마/6.jpg',
             'Gallery-Images/식극의-소마/7.jpg',
             'Gallery-Images/식극의-소마/8.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#신만이-아는-세계 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -679,7 +682,7 @@ $(document).ready(function(){
             'Gallery-Images/신만이-아는-세계/2.jpg',
             'Gallery-Images/신만이-아는-세계/3.jpg',
             'Gallery-Images/신만이-아는-세계/4.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#아노하나 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -690,7 +693,7 @@ $(document).ready(function(){
             'Gallery-Images/아노하나/5.jpg',
             'Gallery-Images/아노하나/6.jpg',
             'Gallery-Images/아노하나/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#아마기-브릴리언트-파크 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -706,7 +709,7 @@ $(document).ready(function(){
             'Gallery-Images/아마기-브릴리언트-파크/10.jpg',
             'Gallery-Images/아마기-브릴리언트-파크/11.jpg',
             'Gallery-Images/아마기-브릴리언트-파크/12.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#아카메가-벤다 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -716,7 +719,7 @@ $(document).ready(function(){
             'Gallery-Images/아카메가-벤다/4.png',
             'Gallery-Images/아카메가-벤다/5.png',
             'Gallery-Images/아카메가-벤다/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#오레모노가타리 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -724,7 +727,7 @@ $(document).ready(function(){
             'Gallery-Images/오레모노가타리/2.jpg',
             'Gallery-Images/오레모노가타리/3.jpg',
             'Gallery-Images/오레모노가타리/4.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#원펀맨 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -739,7 +742,7 @@ $(document).ready(function(){
             'Gallery-Images/원펀맨/9.jpg',
             'Gallery-Images/원펀맨/10.png',
             'Gallery-Images/원펀맨/11.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#월간소녀-노자키-군 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -749,7 +752,7 @@ $(document).ready(function(){
             'Gallery-Images/월간소녀-노자키-군/4.jpg',
             'Gallery-Images/월간소녀-노자키-군/5.jpg',
             'Gallery-Images/월간소녀-노자키-군/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#진격의-거인 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -759,7 +762,7 @@ $(document).ready(function(){
             'Gallery-Images/진격의-거인/4.jpg',
             'Gallery-Images/진격의-거인/5.jpg',
             'Gallery-Images/진격의-거인/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#충사 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -770,7 +773,7 @@ $(document).ready(function(){
             'Gallery-Images/충사/5.jpg',
             'Gallery-Images/충사/6.jpg',
             'Gallery-Images/충사/7.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#토라도라 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -785,7 +788,7 @@ $(document).ready(function(){
             'Gallery-Images/토라도라/9.jpg',
             'Gallery-Images/토라도라/10.jpg',
             'Gallery-Images/토라도라/11.png'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#학교생활 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -794,7 +797,7 @@ $(document).ready(function(){
             'Gallery-Images/학교생활/3.png',
             'Gallery-Images/학교생활/4.jpg',
             'Gallery-Images/학교생활/5.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#혈계전선 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -804,7 +807,7 @@ $(document).ready(function(){
             'Gallery-Images/혈계전선/4.jpg',
             'Gallery-Images/혈계전선/5.jpg',
             'Gallery-Images/혈계전선/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#KILL-LA-KILL h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -814,7 +817,7 @@ $(document).ready(function(){
             'Gallery-Images/킬라킬/4.png',
             'Gallery-Images/킬라킬/5.jpg',
             'Gallery-Images/킬라킬/6.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
     $("#스즈미야-하루히의-소실 h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
@@ -827,6 +830,6 @@ $(document).ready(function(){
             'Gallery-Images/스즈미야-하루히의-소실/7.jpg',
             'Gallery-Images/스즈미야-하루히의-소실/8.jpg',
             'Gallery-Images/스즈미야-하루히의-소실/9.jpg'
-        ]);
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
 });

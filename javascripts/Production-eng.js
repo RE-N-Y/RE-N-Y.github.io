@@ -135,7 +135,7 @@ $(document).ready(function(){
         $("#Production_Description p:nth-child(5)").html("<strong>History:</strong> ufortable was an unknown studio until 2007 when they produced 7 part movie of Kara no Kyoukai. It was well received by the public and the critics for magnificent artwork and action. Then, it rose to its fame when it produced Fate/Zero which recorded the highest sales of the quarter. In 2014, they decided to make a re-make of Fate/stay Night Unlimited Blade Works and was applauded by the fans of a popular visual novel Fate series. But, its standing crashed with the catastrophic production of GOD EATER. From the beginning, it postponed the first episode and instead replaced it with a 15-minute short title. Despite the postponement, the first episode was detested by the viewers and caused worries among the fans. This worry came to reality when ufotable was not able to keep up with the deadlines for 4th, 6th and 8th episode and announced to wrap up the series with 9 episode. Total failure of God Eater left a huge scar on ufotable’s reputation. Hopefully, God Eater was finished with the release of extra 4 episodes, but it seems that ufotable has a long way to go in order to recover its status and fame.");
         $("#Production_Description p:nth-child(6)").html("<strong>Description:</strong> ufotable has an independent internal production system and achieved a complete vertical integration. This production environment enabled animators and directors to produce high-quality animes. For the same reason, ufotable actively applies 3D CG in their works create a modern, powerful and swift action as well as illustrating complex structure and effects. It also is one of the studios that effectively use lighting and brightness. It attempts to provide reality to action with slow motion for emphasis. Moreover, ufotable received well by fandoms for its respect, enthusiasm and the reformation for the original work. Yet, it keeps up to its quality of work consistently throughout a collection of their productions.");
     });
-    $("#WIT-Studio").click(function(){
+    $("#WIT-Stduio").click(function(){
         $("#Production_Display div.thumbnail img").attr("src","template/WIT Studio.jpg");
         $("#Production_Display div .thumbnail h3").text("WIT STUDIO, Inc.");
         $("#Production_Description h3").html("<strong>Name:</strong>株式会社ウィットスタジオ");
@@ -422,7 +422,7 @@ $(document).ready(function(){
         if (image.attr("src")==="template/TRIGGER2.png") {
             image.slideUp().delay(100).queue(function(next){$(this).attr("src","template/TRIGGER1.jpg"); next();}).delay(100).slideDown();
         }
-    });*/
+    });
 
 
 
