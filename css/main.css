@@ -1,3 +1,6 @@
+.jp-playlist-item {
+	padding-right: 10px;
+}
 #genre-container {
 	position: fixed;
 	background-color: #141414;
@@ -649,9 +652,6 @@ ul.ui-autocomplete {
 	display:none;
 }
 
-.jp-audio {
-	width:1000px;
-}
 
 .jumbotron {
 	margin-bottom: 0px;

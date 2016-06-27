@@ -835,4 +835,357 @@ $("#충사 > img").click(function(){
         },timeout);
     des.slideDown();
     });
+$("#죠죠의-기묘한-모험 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/죠죠의-기묘한-모험.jpg");
+            studio.html("Production: david production");
+            gerne.html("Gerne: Action, Adventure, Supernatural");
+            episodes.html("Episodes: 26 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 6/10/2012~6/4/2013");
+        },timeout);
+    des.slideDown();
+    });
+$("#죠죠의-기묘한-모험-스타더스트-크루세이더즈 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/죠죠의-기묘한-모험-스타더스트-크루세이더즈..jpg");
+            studio.html("Production: david production");
+            gerne.html("Gerne: Action, Adventure, Supernatural");
+            episodes.html("Episodes: <br> Season 1-24 Episodes <br> Season 2-24 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: <br> Season 1-5/4/2014~13/9/2014 <br> Season 2-10/1/2015~20/6/2015");
+        },timeout);
+    des.slideDown();
+    });
+
+$("#죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다.jpg");
+            studio.html("Production: david production");
+            gerne.html("Gerne: Action, Adventure, Supernatural, Comedy");
+            episodes.html("Episodes: <br> Season 1-39 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 2/4/2016~");
+        },timeout);
+    des.slideDown();
+    });
+$("#7개의-대죄 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/7개의-대죄.jpg");
+            studio.html("Production: A-1 Pictures");
+            gerne.html("Gerne: Action, Adventure, Fantasy, Drama");
+            episodes.html("Episodes: <br> Season 1-24Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 5/10/2014~29/3/2015");
+        },timeout);
+    des.slideDown();
+    });
+$("#Re-제로 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/Re.제로.jpg");
+            studio.html("Production: White Fox");
+            gerne.html("Gerne: Fantasy, Drama, Thriller");
+            episodes.html("Episodes: <br> Season 1-25 Episodes");
+            source.html("Source: Light Novel");
+            time.html("Aired: 4/4/2016~");
+        },timeout);
+    des.slideDown();
+    });
+$("#갑철성의-카바네리 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/갑철성의-카바네리.jpg");
+            studio.html("Production: Wit Studio");
+            gerne.html("Gerne: Action, Drama, Fantasy, Horror");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: Wit Studio Original");
+            time.html("Aired: 8/4/2016~1/7/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#나의-히어로-아카데미아 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/나의-히어로-아카데미아.jpg");
+            studio.html("Production: Bones");
+            gerne.html("Gerne: Action, Comedy, School");
+            episodes.html("Episodes: <br> Season 1-13 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-3/4~26/6/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#키즈나이버 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/키즈나이버.jpg");
+            studio.html("Production: TRIGGER");
+            gerne.html("Gerne: Drama, SF");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: TRIGGER Original");
+            time.html("Aired: 9/4/2016~25/6/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#타나카-군은-항상-나른해 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/타나카-군은-항상-나른해.jpg");
+            studio.html("Production: Silver Link");
+            gerne.html("Gerne: Comedy, School, Slice of Life");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 9/4/2016~25/6/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#안녕-절망선생 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/안녕-절망선생.jpg");
+            studio.html("Production: Shaft");
+            gerne.html("Gerne: Comedy, Parody, School");
+            episodes.html("Episodes: <br> Season 1-12 Episodes Zoku-12 Episodes Zan-13 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-8/7~23/10/2007 <br> Zoku-6/1~30/3/2008 <br> Zan-5/7~27/10/2009");
+        },timeout);
+    des.slideDown();
+    });
+$("#DEADMAN-WONDERLAND > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/DEADMAN-WONDERLAND.jpg");
+            studio.html("Production: Manglobe");
+            gerne.html("Gerne: Action, Horror, SF");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 17/4~3/7/2011");
+        },timeout);
+    des.slideDown();
+    });
+$("#단간론파 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/단간론파.jpg");
+            studio.html("Production: Lerche");
+            gerne.html("Gerne: Action, Horror, Mystery, Psychological");
+            episodes.html("Episodes: <br> Season 1-13 Episodes");
+            source.html("Source: Game");
+            time.html("Aired: 5/7~27/9/2013");
+        },timeout);
+    des.slideDown();
+    });
+$("#도쿄구울 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/도쿄구울.png");
+            studio.html("Production: Studio Pierrot");
+            gerne.html("Gerne: Action, Drama, Horror, Psychological");
+            episodes.html("Episodes: <br> Season 1-12 Episodes <br> Season 2-12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-4/7~19/9/2014 <br> Season 2-9/1~27/3/2015");
+        },timeout);
+    des.slideDown();
+    });
+$("#신세계에서 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/신세계에서.jpg");
+            studio.html("Production: A-1 Pictures");
+            gerne.html("Gerne: Supernatural, Drama, Horror, Mystery");
+            episodes.html("Episodes: <br> 25 Episodes");
+            source.html("Source: Novel");
+            time.html("Aired: 29/9~23/3/2012");
+        },timeout);
+    des.slideDown();
+    });
+$("#SOUL-EATER > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/소울-이터.jpg");
+            studio.html("Production: Bones");
+            gerne.html("Gerne: Action, School, Adventure, Fantasy, Comedy");
+            episodes.html("Episodes: <br> 51 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 7/4/2008~30/3/2009");
+        },timeout);
+    des.slideDown();
+    });
+$("#노라가미 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/노라가미.jpg");
+            studio.html("Production: Bones");
+            gerne.html("Gerne: Action, Supernatural, Adventure");
+            episodes.html("Episodes: <br> Season 1-12 Episodes <br> ARAGATO-13 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-5/1~23/3/2014 <br> ARAGATO-3/10~26/12/2015");
+        },timeout);
+    des.slideDown();
+    });
+$("#바라카몬 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/바라카몬.jpg");
+            studio.html("Production: Kinema Citrus");
+            gerne.html("Gerne: Comedy, Slice of Life");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-6/7~28/9/2014");
+        },timeout);
+    des.slideDown();
+    });
+$("#일상 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/일상.jpg");
+            studio.html("Production: Kyoto Animation");
+            gerne.html("Gerne: Comedy, School, Slice of Life");
+            episodes.html("Episodes: <br> Season 1-26 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-3/4~25/9/2011");
+        },timeout);
+    des.slideDown();
+    });
+$("#아즈망가-대왕 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/아즈망가-대왕.jpg");
+            studio.html("Production: J.C.Staff");
+            gerne.html("Gerne: Comedy, School, Slice of Life");
+            episodes.html("Episodes: 26 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 9/4~1/10/2002");
+        },timeout);
+    des.slideDown();
+    });
+$("#암살교실 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/암살교실.jpg");
+            studio.html("Production: Lerche");
+            gerne.html("Gerne: Action, Comedy, School");
+            episodes.html("Episodes: <br> Season 1-22 Episodes <br> Season 2-25 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-10/1~20/6/2015 <br> Season 2-8/1~1/7/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#사카모토입니다만 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/사카모토입니다만.jpg");
+            studio.html("Production: Studio Deen");
+            gerne.html("Gerne: Comedy, School");
+            episodes.html("Episodes: <br>12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 8/4~1/7/2016");
+        },timeout);
+    des.slideDown();
+    });
+$("#사쿠라장의-애완그녀 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/사쿠라장의-애완그녀.png");
+            studio.html("Production: J.C.Staff");
+            gerne.html("Gerne: Comedy, Romance, School, Slice of Life, Drama");
+            episodes.html("Episodes: <br> Season 1-24 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: 9/10/2012~26/3/2013");
+        },timeout);
+    des.slideDown();
+    });
+$("#하나야마타 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/하나야마타.jpg");
+            studio.html("Production: MadHouse");
+            gerne.html("Gerne: Comedy, School, Slice of Life");
+            episodes.html("Episodes: <br> Season 1-12 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-8/7~23/9/2014");
+        },timeout);
+    des.slideDown();
+    });
+$("#울려라-유포니엄 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/울려라-유포니엄.jpg");
+            studio.html("Production: Kyoto Animation");
+            gerne.html("Gerne: Drama, Music, School");
+            episodes.html("Episodes: <br> Season 1-13 Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: Season 1-8/4~1/7/2015");
+        },timeout);
+    des.slideDown();
+    });
+$("#플라스틱-메모리즈 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/플라스틱-메모리즈.jpg");
+            studio.html("Production: Doga Kobo");
+            gerne.html("Gerne: Drama, Romance, SF");
+            episodes.html("Episodes: <br> 13 Episodes");
+            source.html("Source: Doga Kobo Original");
+            time.html("Aired: 5/4~28/6/2015");
+        },timeout);
+    des.slideDown();
+    });
+$("#흑의-계약자 > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/흑의-계약자.jpg");
+            studio.html("Production: Bones");
+            gerne.html("Gerne: Action, SF, Mystery");
+            episodes.html("Episodes: <br> Season 1-25 Episodes <br> Season 2-12 Episodes");
+            source.html("Source: Bones Original");
+            time.html("Aired: Season 1-6/4~28/9/2007 <br> Season 2-9/10~25/12/2009");
+        },timeout);
+    des.slideDown();
+    });
+/*$("# > img").click(function(){
+    des.slideUp();
+    timeoutreset();
+    setTimeout(function(){
+            image.attr("src","title-image/.jpg");
+            studio.html("Production: ");
+            gerne.html("Gerne: ");
+            episodes.html("Episodes: <br> Season 1- Episodes");
+            source.html("Source: Manga");
+            time.html("Aired: ");
+        },timeout);
+    des.slideDown();
+    });*/
+
 });

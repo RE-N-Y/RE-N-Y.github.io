@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var random = Math.floor((Math.random() * 44));
-	var randomlist = ["未完成ストライド(미완성 스트라이드)","MEMORIA","Vanilla Salt","Orange","アイノヨカン(사랑의 예감)","Don't say 'lazy'","Inside Identity","Magia","シュガーソングとビターステップ(Sugar Song and Bitter Step)","Lost my music","marshmallow justice","Masshiro World","白金ディスコ(백금 디스코)","紅蓮の弓矢(홍련의 화살)","Hello,world!","God knows","silky heart","staple stable","Golden Time Lover","Someone Else","Period","COLORFUL BOX","Pre Parade","君にまつわるミステリ-(너에 관한 미스테리)","空色デイズ(하늘색 데이즈)","君じゃなきゃダメみたい(네가 아니면 안되나봐)","恋愛サーキュレーション(연예 서큘레이션)","Sparkling Daydream","Cagayake!GIRLS","READY!!","君の知らない物語(네가 모르는 이야기)","ray of light","again","幸せのありか(행복이 있는 곳)","コネクト(Connect)","青い栞(푸른 책갈피","Re;Re;","rain","Hacking to the gate","A Whole New World God Only Knows","secret base 〜君がくれたもの〜","UNDERGROUND - HIGH VOLTAGE","to the beginning","oath sign","The Sore Feet Song"];
+	var randomlist = ["未完成ストライド(미완성 스트라이드)","MEMORIA","Vanilla Salt","Orange","アイノヨカン(사랑의 예감)","Don't say 'lazy'","Inside Identity","Magia","シュガーソングとビターステップ(Sugar Song and Bitter Step)","Lost my music","marshmallow justice","Masshiro World","白金ディスコ(백금 디스코)","紅蓮の弓矢(홍련의 화살)","Hello,world!","God knows","silky heart","staple stable","Golden Time Lover","Someone Else","Period","COLORFUL BOX","Pre Parade","君にまつわるミステリ-(너에 관한 미스테리)","空色デイズ(하늘색 데이즈)","君じゃなきゃダメみたい(네가 아니면 안되나봐)","恋愛サーキュレーション(연예 서큘레이션)","Sparkling Daydream","Cagayake!GIRLS","READY!!","君の知らない物語(네가 모르는 이야기)","ray of light","again","幸せのありか(행복이 있는 곳)","コネクト(Connect)","青い栞(푸른 책갈피)","Re;Re;","rain","Hacking to the gate","A Whole New World God Only Knows","secret base 〜君がくれたもの〜","UNDERGROUND - HIGH VOLTAGE","to the beginning","oath sign","The Sore Feet Song","熱情のスペクトラム","Redo","Unravel","Wareta-Ringo","人として軸がぶれている","katakoi","Roundabout","STAND-PROUD","はじまりの速度","Ring-of-Fortune","朝焼けのスターマイン","ツキアカリのミチシルベ"];
 	var myPlaylist = new jPlayerPlaylist({
 		jPlayer: "#jquery_jplayer_1",
 		cssSelectorAncestor: "#jp_container_1"
@@ -849,6 +849,318 @@ $(document).ready(function(){
 			{
 				title:"The Sore Feet Song",
 				mp3:"music/충사/OP-The Sore Feet Song.mp3"
+			}
+		]);
+	});
+	$("#죠죠의-기묘한-모험 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"ジョジョ 〜その血の運命〜",
+				mp3:"music/죠죠의-기묘한-모험/ジョジョ 〜その血の運命〜.mp3"
+			},
+			{
+				title:"Bloody Stream",
+				mp3:"music/죠죠의-기묘한-모험/Bloody-Stream.mp3"
+			},
+			{
+				title:"Roundabout",
+				mp3:"music/죠죠의-기묘한-모험/Roundabout.mp3"
+			}
+		]);
+	});
+	$("#죠죠의-기묘한-모험-스타더스트-크루세이더즈 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"STAND PROUD",
+				mp3:"music/죠죠의-기묘한-모험-스타더스트-크루세이더즈/STAND-PROUD.mp3"
+			},
+			{
+				title:"Walk like an Egyptian",
+				mp3:"music/죠죠의-기묘한-모험-스타더스트-크루세이더즈/Walk-like-an-Egyptian.mp3"
+			}
+		]);
+	});
+	$("#죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"CRAZY NOISE BIZARE TOWN",
+				mp3:"music/죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다/CRAZY-NOISE-BIZARRE-TOWN.mp3"
+			}
+		]);
+	});
+	$("#7개의-대죄 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"熱情のスペクトラム",
+				mp3:"music/7개의-대죄/熱情のスペクトラム.mp3"
+			},
+			{
+				title:"7-seven-",
+				mp3:"music/7개의-대죄/7-seven-.mp3"
+			}
+		]);
+	});
+	$("#Re-제로 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Redo",
+				mp3:"music/Re-제로/Redo.mp3"
+			},
+			{
+				title:"STYX HELIX",
+				mp3:"music/Re-제로/STYX-HELIX.mp3"
+			}
+		]);
+	});
+	$("#갑철성의-카바네리 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"KABANERI OF THE IRON FORTRESS",
+				mp3:"music/갑철성의-카바네리/KABANERI-OF-THE-IRON-FORTRESS.mp3"
+			},
+			{
+				title:"ninelie",
+				mp3:"music/갑철성의-카바네리/ninelie.mp3"
+			}
+		]);
+	});
+	$("#나의-히어로-아카데미아 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"THE DAY",
+				mp3:"music/나의-히어로-아카데미아/THE-DAY.mp3"
+			},
+			{
+				title:"HEROES",
+				mp3:"music/나의-히어로-아카데미아/HEROES.mp3"
+			}
+		]);
+	});
+	$("#키즈나이버 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"LAY YOUR HANDS ON ME",
+				mp3:"music/키즈나이버/LAY-YOUR-HANDS-ON-ME.mp3"
+			},
+			{
+				title:"はじまりの速度",
+				mp3:"music/키즈나이버/はじまりの速度.mp3"
+			}
+		]);
+	});
+	$("#타나카-군은-항상-나른해 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"うたたねサンシャイン",
+				mp3:"music/타나카-군은-항상-나른해/うたたねサンシャイン.mp3"
+			},
+			{
+				title:"BON-BON",
+				mp3:"music/타나카-군은-항상-나른해/BON-BON.mp3"
+			}
+		]);
+	});
+	$("#안녕-절망선생 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"人として軸がぶれている",
+				mp3:"music/안녕-절망선생/人として軸がぶれている.mp3"
+			},
+			{
+				title:"絶世美人",
+				mp3:"music/안녕-절망선생/絶世美人.mp3"
+			}
+		]);
+	});
+	$("#DEADMAN-WONDERLAND h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"One Reason",
+				mp3:"music/DEADMAN-WONDERLAND/One-Reason.mp3"
+			},
+			{
+				title:"SHINY SHINY",
+				mp3:"music/DEADMAN-WONDERLAND/SHINY-SHINY.mp3"
+			}
+		]);
+	});
+	$("#단간론파 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Never Say Never",
+				mp3:"music/단간론파/Never-Say-Never.mp3"
+			},
+			{
+				title:"絶望性ヒーロー治療薬",
+				mp3:"music/단간론파/絶望性ヒーロー治療薬.mp3"
+			}
+		]);
+	});
+	$("#도쿄구울 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Unravel",
+				mp3:"music/도쿄구울/Unravel.mp3"
+			},
+			{
+				title:"聖者たち",
+				mp3:"music/도쿄구울/聖者たち.mp3"
+			}
+		]);
+	});
+	$("#신세계에서 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Wareta Ringo",
+				mp3:"music/신세계에서/Wareta-Ringo.mp3"
+			}
+		]);
+	});
+	$("#SOUL-EATER h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Resonance",
+				mp3:"music/SOUL-EATER/Resonance.mp3"
+			},
+			{
+				title:"PAPERMOON",
+				mp3:"music/SOUL-EATER/PAPERMOON.mp3"
+			}
+		]);
+	});
+	$("#노라가미 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"午夜の待ち合わせ",
+				mp3:"music/노라가미/午夜の待ち合わせ.mp3"
+			},
+			{
+				title:"ハートリアライズ",
+				mp3:"music/노라가미/ハートリアライズ.mp3"
+			}
+		]);
+	});
+	$("#바라카몬 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"らしさ",
+				mp3:"music/바라카몬/らしさ.mp3"
+			}
+		]);
+	});
+	$("#일상 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"katakoi",
+				mp3:"music/일상/katakoi.mp3"
+			},
+			{
+				title:"Hyadrain no Joujou Yuujou",
+				mp3:"music/일상/Hyadrain-no-Joujou-Yuujou.mp3"
+			},
+			{
+				title:"Zzz",
+				mp3:"music/일상/Zzz.mp3"
+			}
+		]);
+	});
+	$("#아즈망가-대왕 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Soramimi Cake",
+				mp3:"music/아즈망가-대왕/Soramimi-Cake.mp3"
+			},
+			{
+				title:"Raspberry heaven",
+				mp3:"music/아즈망가-대왕/Raspberry-heaven.wma"
+			}
+		]);
+	});
+	$("#암살교실 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"青春サツバツ論",
+				mp3:"music/암살교실/青春サツバツ論.mp3"
+			},
+			{
+				title:"Hello,shooting-star",
+				mp3:"music/암살교실/Hello,shooting-star.mp3"
+			}
+		]);
+	});
+	$("#사카모토입니다만 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"COOLEST",
+				mp3:"music/사카모토입니다만/COOLEST.mp3"
+			}
+		]);
+	});
+	$("#사쿠라장의-애완그녀 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"君が夢を連れてきた",
+				mp3:"music/사쿠라장의-애완그녀/君が夢を連れてきた.mp3"
+			},
+			{
+				title:"DAYS OF DASH",
+				mp3:"music/사쿠라장의-애완그녀/DAYS-OF-DASH.mp3"
+			}
+		]);
+	});
+	$("#하나야마타 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"花ハ踊レヤいろはにほ",
+				mp3:"music/하나야마타/花ハ踊レヤいろはにほ.mp3"
+			},
+			{
+				title:"花雪",
+				mp3:"music/하나야마타/花雪.mp3"
+			}
+		]);
+	});
+	$("#울려라-유포니엄 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"TRUE",
+				mp3:"music/울려라-유포니엄/TRUE.mp3"
+			},
+			{
+				title:"Tutti!",
+				mp3:"music/울려라-유포니엄/Tutti!.mp3"
+			}
+		]);
+	});
+	$("#플라스틱-메모리즈 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Ring of Fortune",
+				mp3:"music/플라스틱-메모리즈/Ring-of-Fortune.mp3"
+			},
+			{
+				title:"朝焼けのスターマイン",
+				mp3:"music/플라스틱-메모리즈/朝焼けのスターマイン.mp3"
+			}
+		]);
+	});
+	$("#흑의-계약자 h6").click(function(){
+		myPlaylist.setPlaylist([
+			{
+				title:"Howling",
+				mp3:"music/흑의-계약자/Howling.mp3"
+			},
+			{
+				title:"ツキアカリのミチシルベ",
+				mp3:"music/흑의-계약자/ツキアカリのミチシルベ.mp3"
+			},
+			{
+				title:"dreams",
+				mp3:"music/흑의-계약자/dreams.mp3"
+			},
+			{
+				title:"ツキアカリ",
+				mp3:"music/흑의-계약자/ツキアカリ.mp3"
 			}
 		]);
 	});

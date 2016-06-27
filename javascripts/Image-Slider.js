@@ -832,4 +832,298 @@ $(document).ready(function(){
             'Gallery-Images/스즈미야-하루히의-소실/9.jpg'
         ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
+    $("#죠죠의-기묘한-모험 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/죠죠의-기묘한-모험/1.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험/2.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험/3.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다/1.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#죠죠의-기묘한-모험-스타더스트-크루세이더즈 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/죠죠의-기묘한-모험-스타더스트-크루세이더즈/1.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험-스타더스트-크루세이더즈/2.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험-스타더스트-크루세이더즈/3.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험-스타더스트-크루세이더즈/4.jpg',
+            'Gallery-Images/죠죠의-기묘한-모험-스타더스트-크루세이더즈/5.jpg'
+
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#7개의-대죄 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/7개의-대죄/1.jpg',
+            'Gallery-Images/7개의-대죄/2.jpg',
+            'Gallery-Images/7개의-대죄/3.jpg',
+            'Gallery-Images/7개의-대죄/4.jpg',
+            'Gallery-Images/7개의-대죄/5.jpg',
+            'Gallery-Images/7개의-대죄/6.png',
+            'Gallery-Images/7개의-대죄/7.png',
+            'Gallery-Images/7개의-대죄/8.jpg',
+            'Gallery-Images/7개의-대죄/9.png'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#Re-제로 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/Re-제로/1.png',
+            'Gallery-Images/Re-제로/2.png',
+            'Gallery-Images/Re-제로/3.png',
+            'Gallery-Images/Re-제로/4.jpg',
+            'Gallery-Images/Re-제로/5.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#갑철성의-카바네리 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/갑철성의-카바네리/1.jpg',
+            'Gallery-Images/갑철성의-카바네리/2.jpg',
+            'Gallery-Images/갑철성의-카바네리/3.jpg',
+            'Gallery-Images/갑철성의-카바네리/4.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#나의-히어로-아카데미아 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/나의-히어로-아카데미아/1.jpg',
+            'Gallery-Images/나의-히어로-아카데미아/2.jpg',
+            'Gallery-Images/나의-히어로-아카데미아/3.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#키즈나이버 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/키즈나이버/1.jpg',
+            'Gallery-Images/키즈나이버/2.jpg',
+            'Gallery-Images/키즈나이버/3.jpg',
+            'Gallery-Images/키즈나이버/4.jpg',
+            'Gallery-Images/키즈나이버/5.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#타나카-군은-항상-나른해 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/타나카-군은-항상-나른해/1.jpg',
+            'Gallery-Images/타나카-군은-항상-나른해/2.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#안녕-절망선생 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/안녕-절망선생/1.jpg',
+            'Gallery-Images/안녕-절망선생/2.jpg',
+            'Gallery-Images/안녕-절망선생/3.jpg',
+            'Gallery-Images/안녕-절망선생/4.jpg',
+            'Gallery-Images/안녕-절망선생/5.jpg',
+            'Gallery-Images/안녕-절망선생/6.jpg',
+            'Gallery-Images/안녕-절망선생/7.jpg',
+            'Gallery-Images/안녕-절망선생/8.jpg',
+            'Gallery-Images/안녕-절망선생/9.jpg',
+            'Gallery-Images/안녕-절망선생/10.jpg',
+            'Gallery-Images/안녕-절망선생/11.jpg',
+            'Gallery-Images/안녕-절망선생/12.jpg',
+            'Gallery-Images/안녕-절망선생/13.jpg',
+            'Gallery-Images/안녕-절망선생/14.jpg',
+            'Gallery-Images/안녕-절망선생/15.jpg',
+            'Gallery-Images/안녕-절망선생/16.jpg',
+            'Gallery-Images/안녕-절망선생/17.jpg',
+            'Gallery-Images/안녕-절망선생/18.jpg',
+            'Gallery-Images/안녕-절망선생/19.jpg',
+            'Gallery-Images/안녕-절망선생/20.jpg',
+            'Gallery-Images/안녕-절망선생/21.jpg',
+            'Gallery-Images/안녕-절망선생/22.jpg',
+            'Gallery-Images/안녕-절망선생/23.jpg',
+            'Gallery-Images/안녕-절망선생/24.jpg',
+            'Gallery-Images/안녕-절망선생/25.jpg',
+            'Gallery-Images/안녕-절망선생/26.jpg',
+            'Gallery-Images/안녕-절망선생/27.jpg',
+            'Gallery-Images/안녕-절망선생/28.jpg',
+            'Gallery-Images/안녕-절망선생/29.jpg',
+            'Gallery-Images/안녕-절망선생/30.jpg',
+            'Gallery-Images/안녕-절망선생/31.jpg',
+            'Gallery-Images/안녕-절망선생/32.jpg',
+            'Gallery-Images/안녕-절망선생/33.jpg',
+            'Gallery-Images/안녕-절망선생/34.jpg',
+            'Gallery-Images/안녕-절망선생/35.jpg',
+            'Gallery-Images/안녕-절망선생/36.jpg',
+            'Gallery-Images/안녕-절망선생/37.jpg',
+            'Gallery-Images/안녕-절망선생/38.jpg',
+            'Gallery-Images/안녕-절망선생/39.jpg',
+            'Gallery-Images/안녕-절망선생/40.jpg',
+            'Gallery-Images/안녕-절망선생/41.jpg',
+            'Gallery-Images/안녕-절망선생/42.jpg',
+            'Gallery-Images/안녕-절망선생/43.jpg',
+            'Gallery-Images/안녕-절망선생/44.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#DEADMAN-WONDERLAND h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/DEADMAN-WONDERLAND/1.jpg',
+            'Gallery-Images/DEADMAN-WONDERLAND/2.jpg',
+            'Gallery-Images/DEADMAN-WONDERLAND/3.jpg',
+            'Gallery-Images/DEADMAN-WONDERLAND/4.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#단간론파 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/단간론파/1.jpg',
+            'Gallery-Images/단간론파/2.jpg',
+            'Gallery-Images/단간론파/3.jpg',
+            'Gallery-Images/단간론파/4.jpg',
+            'Gallery-Images/단간론파/5.jpg',
+            'Gallery-Images/단간론파/6.jpg',
+            'Gallery-Images/단간론파/7.jpg',
+            'Gallery-Images/단간론파/8.jpg',
+            'Gallery-Images/단간론파/9.jpg',
+            'Gallery-Images/단간론파/10.jpg',
+            'Gallery-Images/단간론파/11.jpg',
+            'Gallery-Images/단간론파/12.jpg',
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#도쿄구울 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/도쿄구울/1.jpg',
+            'Gallery-Images/도쿄구울/2.jpg',
+            'Gallery-Images/도쿄구울/3.jpg',
+            'Gallery-Images/도쿄구울/4.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#신세계에서 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/신세계에서/1.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#소울-이터 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/소울-이터/1.jpeg',
+            'Gallery-Images/소울-이터/1.jpg',
+            'Gallery-Images/소울-이터/2.jpg',
+            'Gallery-Images/소울-이터/3.png',
+            'Gallery-Images/소울-이터/4.jpg',
+            'Gallery-Images/소울-이터/5.jpg',
+            'Gallery-Images/소울-이터/6.jpg',
+            'Gallery-Images/소울-이터/7.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#노라가미 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/노라가미/1.jpg',
+            'Gallery-Images/노라가미/2.jpg',
+            'Gallery-Images/노라가미/3.jpg',
+            'Gallery-Images/노라가미/4.jpg',
+            'Gallery-Images/노라가미/5.jpg',
+            'Gallery-Images/노라가미/6.jpg',
+            'Gallery-Images/노라가미/7.jpg',
+            'Gallery-Images/노라가미/8.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#바라카몬 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/바라카몬/1.jpg',
+            'Gallery-Images/바라카몬/2.jpg',
+            'Gallery-Images/바라카몬/3.jpg',
+            'Gallery-Images/바라카몬/4.jpg',
+            'Gallery-Images/바라카몬/5.jpg',
+            'Gallery-Images/바라카몬/6.jpg',
+            'Gallery-Images/바라카몬/7.PNG'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#일상 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/일상/1.jpg',
+            'Gallery-Images/일상/2.jpg',
+            'Gallery-Images/일상/3.jpg',
+            'Gallery-Images/일상/4.jpg',
+            'Gallery-Images/일상/5.jpg',
+            'Gallery-Images/일상/6.jpg',
+            'Gallery-Images/일상/7.jpg',
+            'Gallery-Images/일상/8.jpg',
+            'Gallery-Images/일상/9.jpg',
+            'Gallery-Images/일상/10.jpg',
+            'Gallery-Images/일상/11.jpg',
+            'Gallery-Images/일상/12.jpg',
+            'Gallery-Images/일상/13.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#아즈망가-대왕 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/아즈망가-대왕/1.png',
+            'Gallery-Images/아즈망가-대왕/2.jpg',
+            'Gallery-Images/아즈망가-대왕/3.jpg',
+            'Gallery-Images/아즈망가-대왕/4.jpg',
+            'Gallery-Images/아즈망가-대왕/5.jpg',
+            'Gallery-Images/아즈망가-대왕/6.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#암살교실 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/암살교실/1.jpg',
+            'Gallery-Images/암살교실/2.jpg',
+            'Gallery-Images/암살교실/3.jpg',
+            'Gallery-Images/암살교실/4.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#사카모토입니다만 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/사카모토입니다만/1.jpg',
+            'Gallery-Images/사카모토입니다만/2.png'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#사쿠라장의-애완그녀 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/사쿠라장의-애완그녀/1.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/2.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/3.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/4.jpeg',
+            'Gallery-Images/사쿠라장의-애완그녀/5.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/6.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/7.jpg',
+            'Gallery-Images/사쿠라장의-애완그녀/8.png'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#하나야마타 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/하나야마타/1.jpg',
+            'Gallery-Images/하나야마타/2.jpg',
+            'Gallery-Images/하나야마타/3.jpg',
+            'Gallery-Images/하나야마타/4.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#울려라-유포니엄 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/울려라-유포니엄/1.jpg',
+            'Gallery-Images/울려라-유포니엄/2.jpg',
+            'Gallery-Images/울려라-유포니엄/3.jpg',
+            'Gallery-Images/울려라-유포니엄/4.jpg',
+            'Gallery-Images/울려라-유포니엄/5.jpg',
+            'Gallery-Images/울려라-유포니엄/6.jpg',
+            'Gallery-Images/울려라-유포니엄/7.jpg',
+            'Gallery-Images/울려라-유포니엄/8.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#플라스틱-메모리즈 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/플라스틱-메모리즈/1.jpg',
+            'Gallery-Images/플라스틱-메모리즈/2.jpg',
+            'Gallery-Images/플라스틱-메모리즈/3.jpg',
+            'Gallery-Images/플라스틱-메모리즈/4.png',
+            'Gallery-Images/플라스틱-메모리즈/5.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    $("#흑의-계약자 h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images/흑의-계약자/1.jpg',
+            'Gallery-Images/흑의-계약자/2.jpg',
+            'Gallery-Images/흑의-계약자/3.jpg',
+            'Gallery-Images/흑의-계약자/4.jpg',
+            'Gallery-Images/흑의-계약자/5.jpg',
+            'Gallery-Images/흑의-계약자/6.jpg',
+            'Gallery-Images/흑의-계약자/7.jpg',
+            'Gallery-Images/흑의-계약자/8.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });
+    /*$("# h6 img").on('click',function(){
+        var gallery = blueimp.Gallery([
+            'Gallery-Images//.jpg'
+        ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
+    });*/
+
 });
