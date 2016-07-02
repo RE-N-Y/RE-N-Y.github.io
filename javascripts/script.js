@@ -1,12 +1,4 @@
 $(document).ready(function (){
-    $(document).keyup(function(e) {
-     if (e.keyCode == 27) {
-        $("#grey").fadeOut();
-        $("#music-player-container").fadeIn();
-        $("#info-display, .icon-container, #grey, .Productions, .Dividers, #Production_Display, #Production_Description, .tags, #Recommendations, .Re-Ops, #genre-container").fadeOut();
-        $("#ThemeAnime-1").fadeOut().animate({left:"100%"});
-     }
-    });
     function getScrollbarWidth() {
     var outer = document.createElement("div");
     outer.style.visibility = "hidden";
@@ -34,6 +26,14 @@ $(document).ready(function (){
     var width = (screen.width-getScrollbarWidth()) + 'px';
     $("body").css("width",width);
     $("#music-player-container").css("width",width);
+    $(document).keyup(function(e) {
+     if (e.keyCode == 27) {
+        $("#grey").fadeOut();
+        $("#music-player-container").fadeIn();
+        $("#info-display, .icon-container, #grey, .Productions, .Dividers, #Production_Display, #Production_Description, .tags, #Recommendations, .Re-Ops, #genre-container").fadeOut();
+        $("#ThemeAnime-1").fadeOut().animate({left:"100%"});
+     }
+    });
     $(".icon-container img").click(function(){
         $(".icon-container").fadeOut();
     });

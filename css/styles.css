@@ -1,3 +1,6 @@
+a:hover {
+  text-decoration: none;
+}
 #Production_Display {
   position: fixed;
   top:1%;
@@ -228,41 +231,41 @@ h1 {
   width: 100%;
   height: 100%;
   z-index: 1; }
-  #introduction .bcg{
-    background-size: cover;
-    background-image: url(../Gallery-Images/ReZero/1.png); 
-  }
-  .header-container .bcg {
-    background-image: url(../Random-Image/17.jpg);
-    background-size: cover; }
-  #slide01 .bcg {
+#introduction .bcg{
+  background-size: cover;
+  background-image: url(../Gallery-Images/ReZero/1.png); 
+}
+.header-container .bcg {
+  background-image: url(../Random-Image/17.jpg);
+  background-size: cover; }
+#slide01 .bcg {
     background: url(../Gallery-Images/키즈나이버/1.png) no-repeat center center;
     background-size: cover; }
-  #slide02 .bcg {
+#slide02 .bcg {
     background: url(../Gallery-Images/나의-히어로-아카데미야/1.jpg) no-repeat center center;
     background-size: cover; }
-  #slide03 .bcg {
+#slide03 .bcg {
     background: url(../Gallery-Images/사카모토입니다만/2.png) no-repeat center center;
     background-size: cover; }
-  #slide04 .bcg {
+#slide04 .bcg {
     background: url(../Gallery-Images/철갑성의-카나바리/1.jpg) no-repeat center center;
     background-size: cover; }
-  #slide05 .bcg {
+#slide05 .bcg {
     background: url(../Gallery-Images/타나카군은-항상-나른해/1.png) no-repeat center center;
     background-size: cover; }
-    #slide06 .bcg {
+#slide06 .bcg {
     background: url(../Random-Image/19.jpg) no-repeat center center;
     background-size: cover; }
-    #slide07 .bcg {
+#slide07 .bcg {
     background: url(../Random-Image/19.jpg) no-repeat center center;
     background-size: cover; }
-    #slide08 .bcg {
+#slide08 .bcg {
     background: url(../Random-Image/19.jpg) no-repeat center center;
     background-size: cover; }
-    #slide09 .bcg {
+#slide09 .bcg {
     background: url(../Random-Image/19.jpg) no-repeat center center;
     background-size: cover; }
-    #slide010 .bcg {
+#slide010 .bcg {
     background: url(../Random-Image/19.jpg) no-repeat center center;
     background-size: cover; }
 

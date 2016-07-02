@@ -1,3 +1,101 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+a:hover {
+	text-decoration: none;
+}
+.container-fluid {
+	text-align: center;
+}
+.page {
+	display: inline-block;
+	margin: 0;
+}
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.page-container {
+  margin-top: 1em;
+  padding-top: 2em;
+  border-top: 1px solid #d7dadb;
+  text-align: center;
+}
+
+.page-item {
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid #d7dadb;
+  transform: scale(1) rotate(19deg) translateX(0px) translateY(0px) skewX(-10deg) skewY(-20deg);
+}
+
+.page-item:hover,
+.page-item.is-active {
+  background-color: #fa4248;
+  border-right: 1px solid #fff;
+}
+.page-item:hover .page-link,
+.page-item.is-active .page-link {
+  color: #fff;
+}
+
+.page-item.first-number {
+  border-left: 1px solid #d7dadb;
+}
+
+.page-link {
+  padding: 1.1em 1.6em;
+  display: inline-block;
+  text-decoration: none;
+  color: #8b969c;
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+
+.page-item--wide {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.page-item--wide.first {
+  margin: 20px 1em 20px 0;
+}
+
+.page-item--wide.last {
+  margin: 20px 0 20px 0;
+}
+
+.page-link--wide {
+  text-decoration: none;
+  color: #8b969c;
+  padding: 1.1em 1.6em;
+}
+
+.page-link--wide:hover {
+  color: #fa4248;
+}
+
+.page-link--wide.first:before,
+.page-link--wide.last:after {
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-link--wide.first::before {
+  content: "\E765";
+  margin-right: 0.5em;
+}
+
+.page-link--wide.last::after {
+  content: "\E766";
+  margin-left: 0.5em;
+}
 .jp-playlist-item {
 	padding-right: 10px;
 }

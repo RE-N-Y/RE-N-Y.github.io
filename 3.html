@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>THE COLLECTOR</title>
+    <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="javascripts/jquery.jplayer.min.js"></script>
+    <link type="text/css" href="add-ons/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet"/>
+    <script type="text/javascript" src="javascripts/jplayer.playlist.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.jplayer.inspector.min.js"></script>
+    <script type="text/javascript" src="javascripts/music.js"></script>
+    <script type="text/javascript" src="javascripts/Description-eng.js"></script>
+    <script type="text/javascript" src="javascripts/search-eng2.js"></script>
+    <script type="text/javascript" src="javascripts/Image-Slider.js"></script>
+    <script src="js/lightslider.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css"/>  
+    <style type="text/css">
+      @font-face {
+      font-family: ADAM;
+      src: url("fonts/ADAM.CG PRO.otf");
+     }
+    </style>
+</head>
+<body>
+	<div id="music-player-container" style="position:fixed;">
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player" style="width:100%;">
+	<div class="jp-type-playlist">
+		<div class="jp-gui jp-interface">
+			<div class="jp-controls">
+				<button class="jp-previous" role="button" tabindex="0">previous</button>
+				<button class="jp-play" role="button" tabindex="0">play</button>
+				<button class="jp-next" role="button" tabindex="0">next</button>
+				<button class="jp-stop" role="button" tabindex="0">stop</button>
+			</div>
+			<div class="jp-progress">
+				<div class="jp-seek-bar">
+					<div class="jp-play-bar"></div>
+				</div>
+			</div>
+			<div class="jp-volume-controls">
+				<div class="jp-volume-bar">
+					<div class="jp-volume-bar-value"></div>
+				</div>
+				<button class="jp-mute" role="button" tabindex="0">mute</button>
+				<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+			</div>
+			<div class="jp-toggles">
+			    <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+			</div>
+			<div class="jp-time-holder">
+				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+			</div>
+		</div>
+		<div class="jp-playlist">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		<div class="header">
+		<div class="jumbotron">
+			<h1  style="margin-left:10%;"id="the_collector">The Collector</h1>
+			<h2 style="margin-left:10%;">로리는 진리다</h2>
+		</div>
+		<div class="search">
+		<div id="search-container"class="container">
+			<p class="search-error" id="search-error-no-entry"></p>
+			<h3>Searcher</h3>
+			<form>
+				<div class="form-group">
+					<label for="anime"></label>
+					<input type="ANIME" class="form-control" id="animesearch" placeholder="Search" autocomplete="off">
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+
+	<div class="main">
+		<a href="Applications.html"><img style="width:45px; position:fixed; bottom:15px; right:15px; cursor:pointer;"src="icons/Re.png"></a>
+		<div class="container" id="Description" style="display: none;">
+		<p style="cursor:pointer; margin-bottom:0px;">></p>
+		<div class="thumbnail anime">
+			<img src="">
+		</div>
+			<h6 id="Studio"></h6>
+			<h6 id="Gerne"></h6>
+			<h6 id="Episodes"></h6>
+			<h6 id="Time"></h6>
+			<h6 id="Source"></h6>
+	    </div>
+	    <div class="container">
+            <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="z-index:100;">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="reverse"><span style="font-size:20px;" class="glyphicon glyphicon-remove"></span></a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+        </div>
+
+	<div class="animes">
+		    <div class="container">
+			<div id="나만이-없는-거리" class="thumbnail anime Mystery Psychological">
+					<h6>Boku dake ga Inai Machi <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/나만이-없는-거리.jpg">
+
+				</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="학교생활" class="thumbnail anime Horror Thriller Slice-of-Life School Psychological">
+		    		<h6>Gakkougurashi! <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/학교생활.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="건어물-여동생-우마루-짱" class="thumbnail anime Comedy Slice-of-Life">
+		    		<h6>Himouto! Umaru-chan! <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/건어물-여동생-우마루-짱.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="데스-퍼레이드" class="thumbnail anime Slice-of-Life Drama Mystery Thriller Psychological">
+		    		<h6>Death Parade <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/데스-퍼레이드.jpg">
+
+			        </div>
+		    	</div>
+		    </div>
+
+		    <div class="container">
+		    	
+		    	<div class="col-md-4">
+		    		<div id="페이트-제로" class="thumbnail anime Gore Action Fantasy">
+		    		<h6>Fate/Zero <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/페이트-제로.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="페이트-스테이-나이트-Unlimited-Blade-Works" class="thumbnail anime Gore Action Fantasy">
+		    		<h6>Fate/stay Night <img style="width:35px;"src="icons/Gallery.png"></h6>
+		    		<h6>Unlimited Blade Works </h6>
+
+						<img src="img/페이트-스테이-나이트-Unlimited-Blade-Works.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="페이트-스테이-나이트-Heavens-Feel" class="thumbnail anime Gore Action Fantasy">
+		    		<h6>Fate/stay NIght <img style="width:35px;"src="icons/Gallery.png"></h6>
+		    		<h6>Heaven's Feel </h6>
+
+						<img src="img/페이트-스테이-나이트-Heaven's-Feel.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="아이돌-마스터" class="thumbnail anime Music Drama Comedy">
+		    		<h6>The Idolm@ster <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/The-Idolm@ster.jpg">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="오레모노가타리" class="thumbnail anime Comedy Romance">
+		    		<h6>Ore Monogatari!! <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/오레모노가타리.gif">
+
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="신만이-아는-세계" class="thumbnail anime Harem Romance Fantasy">
+		    		<h6>World God only knows <img style="width:35px;"src="icons/Gallery.png"></h6>
+
+						<img src="img/신만이-아는-세계.jpg">
+
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-6">
+		    		<div id="4월은-너의-거짓말" class="thumbnail anime Music Romance School Drama">
+		    		<h6>Shigatsu wa Kimi no Uso <img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/4월은-너의-거짓말.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-6">
+		    		<div id="아노하나" class="thumbnail anime Drama Slice-of-Life">
+		    		<h6>Anohana <img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/아노하나.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div id="충사" class="thumbnail anime Slice-of-Life Supernatural Adventure Mystery">
+		    		<h6>Mushishi <img style="width:35px;"src="icons/Gallery.png"></h6>
+		    		<img src="img/충사.jpg">
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="죠죠의-기묘한-모험" class="thumbnail anime">
+		    		<h6>Jojo no Kimyou na Bouken<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/죠죠의-기묘한-모험.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="죠죠의-기묘한-모험-스타더스트-크루세이더즈" class="thumbnail anime">
+		    		<h6>Jojo no Kimyou na Bouken: Stardust Crusaiders<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/죠죠의-기묘한-모험-스타더스트-크루세이더즈.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다" class="thumbnail anime">
+		    		<h6>Jojo no Kimyou na Bouken: Diamond wa Kudakenai<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="7개의-대죄" class="thumbnail anime">
+		    		<h6>Nanatsu no Taizai<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/7개의-대죄.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="Re-제로" class="thumbnail anime">
+		    		<h6>Re: Zero kara Hajimaru Isekai Seikatsu<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/Re-제로.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="갑철성의-카바네리" class="thumbnail anime">
+		    		<h6>Kabaneri of the Iron Fortress<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/갑철성의-카바네리.png">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="나의-히어로-아카데미아" class="thumbnail anime">
+		    		<h6>Boku no Hero Academia<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/나의-히어로-아카데미아.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="키즈나이버" class="thumbnail anime">
+		    		<h6>Kiznaivers<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/키즈나이버.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="타나카-군은-항상-나른해" class="thumbnail anime">
+		    		<h6>Tanaka-kun wa Itsumo Kedaruge<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/타나카-군은-항상-나른해.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="안녕-절망선생" class="thumbnail anime">
+		    		<h6>Sayonara Zetsubo-sensei<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/안녕-절망선생.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="DEADMAN-WONDERLAND" class="thumbnail anime">
+		    		<h6>Deadman Wonderland<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/DEADMAN-WONDERLAND.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="단간론파" class="thumbnail anime">
+		    		<h6>Danganronpa<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/단간론파.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-6">
+		    		<div id="도쿄구울" class="thumbnail anime">
+		    		<h6>Tokyo Ghoul<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/도쿄구울.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-6">
+		    		<div id="신세계에서" class="thumbnail anime">
+		    		<h6>Shinsekai yori<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/신세계에서.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="SOUL-EATER" class="thumbnail anime">
+		    		<h6>SOUL EATER<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/SOUL-EATER.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="노라가미" class="thumbnail anime">
+		    		<h6>Noragami<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/노라가미.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="바라카몬" class="thumbnail anime">
+		    		<h6>Barakamon<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/바라카몬.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-6">
+		    		<div id="일상" class="thumbnail anime">
+		    		<h6>Nichijou<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/일상.png">
+			        </div>
+		    	</div>
+		    	<div class="col-md-6">
+		    		<div id="아즈망가-대왕" class="thumbnail anime">
+		    		<h6>Azumanga Daioh!<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/아즈망가-대왕.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="암살교실" class="thumbnail anime">
+		    		<h6>Assassination Classroom<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/암살교실.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="사카모토입니다만" class="thumbnail anime">
+		    		<h6>Sakamoto desu ga?<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/사카모토입니다만.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="사쿠라장의-애완그녀" class="thumbnail anime">
+		    		<h6>Sakurasou no Pet no Kanojo<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/사쿠라장의-애완그녀.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-4">
+		    		<div id="하나야마타" class="thumbnail anime">
+		    		<h6>Hanayamata<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/하나야마타.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="울려라-유포니엄" class="thumbnail anime">
+		    		<h6>Hibike! Euphonium<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/울려라-유포니엄.jpg">
+			        </div>
+		    	</div>
+		    	<div class="col-md-4">
+		    		<div id="플라스틱-메모리즈" class="thumbnail anime">
+		    		<h6>Plastic Memories<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/플라스틱-메모리즈.jpg">
+			        </div>
+		    	</div>
+		    </div>
+		    <div class="container">
+		    	<div class="col-md-1"></div>
+		    	<div class="col-md-10">
+		    		<div id="흑의-계약자" class="thumbnail anime">
+		    		<h6>DARKER THAN BLACK<img style="width:35px;"src="icons/Gallery.png"></h6>
+						<img src="img/흑의-계약자.jpg">
+			        </div>
+		    	</div>
+			     <div class="col-md-1"></div>
+		    </div>
+		    <div class="container">
+	                
+
+		    </div>
+		    </div>
+		</div>
+		</div>
+	</div>
+   </div>
+	<div class="footer">
+		<div class="container-fluid">
+			<ul class="page">
+		                <li class="page-item--wide first"> <a class="page-link--wide first" href="2.html">Previous</a> </li>
+		                <li class="page-item first-number"> <a class="page-link" href="index.html">1</a> </li>
+		                <li class="page-item"> <a class="page-link" href="2.html">2</a> </li>
+		                <li class="page-item is-active"> <a class="page-link" href="3.html">3</a> </li>
+		                <li class="page-item--wide last"> <a class="page-link--wide last" href="index.html">Next</a> </li>
+	                </ul>
+
+		</div>
+	</div>
+	<script src="js/blueimp-gallery.min.js"></script>
+    <script type="text/javascript" src="javascripts/script.js"></script>
+</body>
+</html>
