@@ -25,7 +25,11 @@ $(document).ready(function (){
     }
     var width = (screen.width-getScrollbarWidth()) + 'px';
     $("body").css("width",width);
+<<<<<<< HEAD
     $("#jp_container_1").css("width",width);
+=======
+    $("#music-player-container").css("width",width);
+>>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
     $(document).keyup(function(e) {
      if (e.keyCode == 27) {
         $("#grey").fadeOut();

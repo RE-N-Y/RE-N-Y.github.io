@@ -1120,6 +1120,7 @@ $(document).ready(function(){
             'Gallery-Images/흑의-계약자/8.jpg'
         ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
+<<<<<<< HEAD
     $("#Angel-Beats h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images/Angel-Beats/1.jpg',
@@ -1266,6 +1267,8 @@ $(document).ready(function(){
             'Gallery-Images/별을-쫓는-아이/5.jpg'
         ],{closeOnSlideClick: false, closeOnSwipeUpOrDown:false,hidePageScrollbars: false});
     });
+=======
+>>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
     /*$("# h6 img").on('click',function(){
         var gallery = blueimp.Gallery([
             'Gallery-Images//.jpg'
