@@ -27,11 +27,8 @@ $(document).ready(function(){
             gerne.html("Gerne: School, RomCom, SF");
             episodes.html("Episodes: Movie");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 6/2/2010 <br>");
-=======
             time.html("Aired: <br> 6/2/2010");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -44,11 +41,8 @@ $(document).ready(function(){
             gerne.html("Gerne: School, RomCom, SF");
             episodes.html("Episodes: Season 1-14 Episodes Season 2-14 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-3/4~3/7/2006    <br>              Season 2-22/5~11/9/2009 <br>");
-=======
             time.html("Aired: <br> Season 1-3/4~3/7/2006    <br>              Season 2-22/5~11/9/2009");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -61,11 +55,8 @@ $(document).ready(function(){
             gerne.html("Gerne: Comedy, School, Slice of Life");
             episodes.html("Episodes: Season 1-12 Episodes Season 2 12 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-4/10~20/12/2012 <br>                Season 2-9/1/~27/3/2014 <br>");
-=======
             time.html("Aired: <br> Season 1-4/10~20/12/2012 <br>                Season 2-9/1/~27/3/2014");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -91,11 +82,8 @@ $(document).ready(function(){
             gerne.html("Gerne: RomCom, School");
             episodes.html("Episodes: Season 1-13 Episodes Season 2-13 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-5/4~28/6/2013   <br>              Season 2-3/4~26/6/2015 <br>");
-=======
             time.html("Aired: <br> Season 1-5/4~28/6/2013   <br>              Season 2-3/4~26/6/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -134,11 +122,8 @@ $("#역경무뢰-카이지 > img").click(function(){
             gerne.html("Gerne: Thriller, Psychological");
             episodes.html("Episodes: Season 1-26 Episodes Season 2-26 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-3/10~2/4/2008   <br>              Season 2-6/4~28/10/2011 <br>");
-=======
             time.html("Aired: <br> Season 1-3/10~2/4/2008   <br>              Season 2-6/4~28/10/2011");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -219,11 +204,8 @@ $("#SHIRO-BAKO > img").click(function(){
             gerne.html("Gerne: Comedy, Drama");
             episodes.html("Episodes: 24 Episodes");
             source.html("Source: P.A. Works Original");
-<<<<<<< HEAD
             time.html("Aired: <br> 9/10/2014~26/3/2015           <br>     ");
-=======
             time.html("Aired: 9/10/2014~26/3/2015           <br>     ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -249,11 +231,8 @@ $("#모노가타리-시리즈").on("click",function(){
             gerne.html("Gerne: Mystery, Romance, Supernatural, Psychological");
             episodes.html("Episodes: 86 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 2009~     <br>  ");
-=======
             time.html("Aired: 2009~     <br>  ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -318,11 +297,8 @@ $("#츠키모노가타리 > img").click(function(){
             gerne.html("Gerne: Mystery, romance, Supernatural, Psychological");
             episodes.html("Episodes: 4 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 31/12/2014         <br>      ");
-=======
             time.html("Aired: 31/12/2014         <br>      ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -348,11 +324,8 @@ $("#키즈모노가타리-철혈 > img").click(function(){
             gerne.html("Gerne: Mystery, romance, Supernatural, Psychological");
             episodes.html("Episodes: Movie");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 8/1/2016           <br>     ");
-=======
             time.html("Aired: 8/1/2016           <br>     ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -366,11 +339,8 @@ $("#키즈모노가타리-열혈 > img").click(function(){
             episodes.html("Episodes: Movie")
             studio.html("Production: Shaft");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
         time.html("Aired: <br> 2016 Summer            <br>    ");
-=======
         time.html("Aired: 2016 Summer            <br>    ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -410,11 +380,8 @@ $("#케이온 > img").click(function(){
             gerne.html("Gerne: Slice of Life, School, Music");
             episodes.html("Episodes: Season 1-13 Episodes Season 2-26 Episodes");
             source.html("Source: 4-koma Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-43/4~26/6/2009 <br> Season 2-7/4~29/10/2010     <br>           ");
-=======
             time.html("Aired: <br> Season 1-43/4~26/6/2009 <br> Season 2-7/4~29/10/2010                ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -479,11 +446,8 @@ $("#니세코이 > img").click(function(){
             gerne.html("Gerne: RomCom, Harem, School");
             episodes.html("Episodes: Season 1-20 Episodes Season 2-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-11/1~5/24/2014  <br>               Season 2-10/4~26/6/2015 <br>");
-=======
             time.html("Aired: <br> Season 1-11/1~5/24/2014  <br>               Season 2-10/4~26/6/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -522,11 +486,8 @@ $("#기어와라-냐루코-양 > img").click(function(){
             gerne.html("Gerne: Comedy, romance, SF");
             episodes.html("Episodes: Season 1-12 Episodes Season 2-12 Episodes +OVA");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-10/4~26/6/2012  <br>               Season 2-8/4~1/7/2013  <br> OVA-19/6/2015 <br>" );  
-=======
             time.html("Aired: <br> Season 1-10/4~26/6/2012  <br>               Season 2-8/4~1/7/2013  <br> OVA-19/6/2015" );  
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -552,11 +513,8 @@ $("#논논비요리 > img").click(function(){
             gerne.html("Gerne: Slice of Life, School, Comedy");
             episodes.html("Episodes: Season 1-12 Episodes  Season 2-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-8/10~24/12/2013 <br>Season 2-7/7~22/10/2015    <br>            ");
-=======
             time.html("Aired: <br> Season 1-8/10~24/12/2013 <br>Season 2-7/7~22/10/2015                ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -634,11 +592,8 @@ $("#WORKING > img").click(function(){
             gerne.html("Gerne: Comedy, Slice of Life");
             episodes.html("Episodes: Season 1-13 Episodes Season 2-13 Episodes <br> Season 3-13 Episodes +OVA");
             source.html("Source: 4-koma Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-4/4~27/6/2010   <br>          Season 2-8/1~24/12/2011 <br> Season 3-5/7~27/10/2015  <br> OVA-30/3/2016 <br>");
-=======
             time.html("Aired: <br> Season 1-4/4~27/6/2010   <br>          Season 2-8/1~24/12/2011 <br> Season 3-5/7~27/10/2015  <br> OVA-30/3/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -677,11 +632,8 @@ $("#PSYCHO-PASS > img").click(function(){
             gerne.html("Gerne: Action, Psychological, SF, Police");
             episodes.html("Episodes: Season 1-22 Episodes Season 2-11 Episodes");
             source.html("Source: Production I.G Original");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-12/8/2012~22/3/2013        <br>         Season 2-10/10~19/12/2014 <br>");
-=======
             time.html("Aired: <br> Season 1-12/8/2012~22/3/2013        <br>         Season 2-10/10~19/12/2014");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -788,11 +740,8 @@ $("#페이트-제로 > img").click(function(){
             gerne.html("Gerne: Fantasy, Action, Gore");
             episodes.html("Episodes: Season 1-13 Episodes Season 2-12 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-2/10~25/12/2011 <br>                Season 2-8/4~24/6/2012 <br>");
-=======
             time.html("Aired: <br> Season 1-2/10~25/12/2011 <br>                Season 2-8/4~24/6/2012");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -805,11 +754,8 @@ $("#페이트-스테이-나이트-Unlimited-Blade-Works > img").click(function()
             gerne.html("Gerne: Fantasy, Action, Gore");
             episodes.html("Episodes: Season 1-12 Episodes Season 2-13 Episodes");
             source.html("Source: Visual Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-12/10~28/12/2014<br>                 Season 2-5/4~28/6/2015 <br>");
-=======
             time.html("Aired: <br> Season 1-12/10~28/12/2014<br>                 Season 2-5/4~28/6/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -822,11 +768,8 @@ $("#페이트-스테이-나이트-Heavens-Feel > img").click(function(){
             gerne.html("Gerne: Fantasy, Action, Gore");
             episodes.html("Episodes: Movie");
             source.html("Source: Visual Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 2017               <br> ");
-=======
             time.html("Aired: 2017               <br> ");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -840,11 +783,8 @@ $("#아이돌-마스터 > img").click(function(){
             gerne.html("Gerne: Comedy, Idol, Music, Drama");
             episodes.html("Episodes: 25 Episodes");
             source.html("Source: Game");
-<<<<<<< HEAD
             time.html("Aired:<br> 8/7~23/12/2011 <br>");
-=======
             time.html("Aired: 8/7~23/12/2011");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -858,11 +798,8 @@ $("#오레모노가타리 > img").click(function(){
             gerne.html("Gerne: Comedy, romance");
             episodes.html("Episodes: 24 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>9/4~24/10/2015<br>");
-=======
             time.html("Aired: 9/4~24/10/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -875,11 +812,8 @@ $("#신만이-아는-세계 > img").click(function(){
             gerne.html("Gerne: Comedy, Harem, Romance, Fantasy");
             episodes.html("Episodes: <br> Season 1-12 Episodes <br> Season 2-12 Episodes <br> Season 3-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-7/10~23/12/2010 <br> Season 2-12/4~28/6/2011 <br> Season 3-9/7~24/9/2013<br>");
-=======
             time.html("Aired: <br> Season 1-7/10~23/12/2010 <br> Season 2-12/4~28/6/2011 <br> Season 3-9/7~24/9/2013");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -892,11 +826,8 @@ $("#4월은-너의-거짓말 > img").click(function(){
             gerne.html("Gerne: Drama, romance, Music, School");
             episodes.html("Episodes: 22 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>10/10~2014~20/3/2015 <br>");
-=======
             time.html("Aired: 10/10~2014~20/3/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -909,11 +840,8 @@ $("#아노하나 > img").click(function(){
             gerne.html("Gerne: Drama, Slice of Life");
             episodes.html("Episodes: 11 Episodes");
             source.html("Source: A-1 Pictures Original");
-<<<<<<< HEAD
             time.html("Aired: <br>15/4~24/6/2011 <br>");
-=======
             time.html("Aired: 15/4~24/6/2011");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
         });
@@ -927,11 +855,8 @@ $("#충사 > img").click(function(){
             gerne.html("Gerne: Slice of Life, Adventure, History, Fantasy, Mystery");
             episodes.html("Episodes: <br> Season 1-26 Episodes <br> Zoku Shou-10 Episodes <br> Season 2-10 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-23/10/2005~19/6/2006 <br> Zoku Shou-5/4~21/6/2014 <br> Season 2-19/10~21/12/2014 <br>");
-=======
             time.html("Aired: <span style=\"font-size:13px;\"><br> Season 1-23/10/2005~19/6/2006 <br> Zoku Shou-5/4~21/6/2014 <br> Season 2-19/10~21/12/2014</span>");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -944,11 +869,8 @@ $("#죠죠의-기묘한-모험 > img").click(function(){
             gerne.html("Gerne: Action, Adventure, Supernatural");
             episodes.html("Episodes: 26 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 6/10/2012~6/4/2013");
-=======
             time.html("Aired: 6/10/2012~6/4/2013");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -961,11 +883,8 @@ $("#죠죠의-기묘한-모험-스타더스트-크루세이더즈 > img").click(
             gerne.html("Gerne: Action, Adventure, Supernatural");
             episodes.html("Episodes: <br> Season 1-24 Episodes <br> Season 2-24 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-5/4/2014~13/9/2014 <br> Season 2-10/1/2015~20/6/2015 <br>");
-=======
             time.html("Aired: <br> Season 1-5/4/2014~13/9/2014 <br> Season 2-10/1/2015~20/6/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -979,11 +898,8 @@ $("#죠죠의-기묘한-모험-다이야몬드는-부서지지-않는다 > img")
             gerne.html("Gerne: Action, Adventure, Supernatural, Comedy");
             episodes.html("Episodes: <br> Season 1-39 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 2/4/2016~ <br>");
-=======
             time.html("Aired: 2/4/2016~");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -996,11 +912,8 @@ $("#7개의-대죄 > img").click(function(){
             gerne.html("Gerne: Action, Adventure, Fantasy, Drama");
             episodes.html("Episodes: <br> Season 1-24Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 5/10/2014~29/3/2015 <br>");
-=======
             time.html("Aired: 5/10/2014~29/3/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1013,11 +926,8 @@ $("#Re-제로 > img").click(function(){
             gerne.html("Gerne: Fantasy, Drama, Thriller");
             episodes.html("Episodes: <br> Season 1-25 Episodes");
             source.html("Source: Light Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 4/4/2016~ <br>");
-=======
             time.html("Aired: 4/4/2016~");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1030,11 +940,8 @@ $("#갑철성의-카바네리 > img").click(function(){
             gerne.html("Gerne: Action, Drama, Fantasy, Horror");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: Wit Studio Original");
-<<<<<<< HEAD
             time.html("Aired: <br> 8/4/2016~1/7/2016 <br>");
-=======
             time.html("Aired: 8/4/2016~1/7/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1047,11 +954,8 @@ $("#나의-히어로-아카데미아 > img").click(function(){
             gerne.html("Gerne: Action, Comedy, School");
             episodes.html("Episodes: <br> Season 1-13 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-3/4~26/6/2016 <br>");
-=======
             time.html("Aired: Season 1-3/4~26/6/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1064,11 +968,8 @@ $("#키즈나이버 > img").click(function(){
             gerne.html("Gerne: Drama, SF");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: TRIGGER Original");
-<<<<<<< HEAD
             time.html("Aired: <br> 9/4/2016~25/6/2016 <br>");
-=======
             time.html("Aired: 9/4/2016~25/6/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1081,11 +982,8 @@ $("#타나카-군은-항상-나른해 > img").click(function(){
             gerne.html("Gerne: Comedy, School, Slice of Life");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 9/4/2016~25/6/2016 <br>");
-=======
             time.html("Aired: 9/4/2016~25/6/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1098,11 +996,8 @@ $("#안녕-절망선생 > img").click(function(){
             gerne.html("Gerne: Comedy, Parody, School");
             episodes.html("Episodes: <br> Season 1-12 Episodes Zoku-12 Episodes Zan-13 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-8/7~23/10/2007 <br> Zoku-6/1~30/3/2008 <br> Zan-5/7~27/10/2009 <br>");
-=======
             time.html("Aired: Season 1-8/7~23/10/2007 <br> Zoku-6/1~30/3/2008 <br> Zan-5/7~27/10/2009");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1115,11 +1010,8 @@ $("#DEADMAN-WONDERLAND > img").click(function(){
             gerne.html("Gerne: Action, Horror, SF");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 17/4~3/7/2011");
-=======
             time.html("Aired: 17/4~3/7/2011");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1132,11 +1024,8 @@ $("#단간론파 > img").click(function(){
             gerne.html("Gerne: Action, Horror, Mystery, Psychological");
             episodes.html("Episodes: <br> Season 1-13 Episodes");
             source.html("Source: Game");
-<<<<<<< HEAD
             time.html("Aired: <br> 5/7~27/9/2013");
-=======
             time.html("Aired: 5/7~27/9/2013");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1149,11 +1038,8 @@ $("#도쿄구울 > img").click(function(){
             gerne.html("Gerne: Action, Drama, Horror, Psychological");
             episodes.html("Episodes: <br> Season 1-12 Episodes <br> Season 2-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-4/7~19/9/2014 <br> Season 2-9/1~27/3/2015 <br>");
-=======
             time.html("Aired: Season 1-4/7~19/9/2014 <br> Season 2-9/1~27/3/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1166,11 +1052,8 @@ $("#신세계에서 > img").click(function(){
             gerne.html("Gerne: Supernatural, Drama, Horror, Mystery");
             episodes.html("Episodes: <br> 25 Episodes");
             source.html("Source: Novel");
-<<<<<<< HEAD
             time.html("Aired: <br> 29/9~23/3/2012 <br>");
-=======
             time.html("Aired: 29/9~23/3/2012");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1183,11 +1066,8 @@ $("#SOUL-EATER > img").click(function(){
             gerne.html("Gerne: Action, School, Adventure, Fantasy, Comedy");
             episodes.html("Episodes: <br> 51 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> 7/4/2008~30/3/2009 <br>");
-=======
             time.html("Aired: 7/4/2008~30/3/2009");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1200,11 +1080,8 @@ $("#노라가미 > img").click(function(){
             gerne.html("Gerne: Action, Supernatural, Adventure");
             episodes.html("Episodes: <br> Season 1-12 Episodes <br> ARAGATO-13 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br> Season 1-5/1~23/3/2014 <br> ARAGATO-3/10~26/12/2015 <br>");
-=======
             time.html("Aired: Season 1-5/1~23/3/2014 <br> ARAGATO-3/10~26/12/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1217,11 +1094,8 @@ $("#바라카몬 > img").click(function(){
             gerne.html("Gerne: Comedy, Slice of Life");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-6/7~28/9/2014<br>");
-=======
             time.html("Aired: Season 1-6/7~28/9/2014");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1234,11 +1108,8 @@ $("#일상 > img").click(function(){
             gerne.html("Gerne: Comedy, School, Slice of Life");
             episodes.html("Episodes: <br> Season 1-26 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-3/4~25/9/2011<br>");
-=======
             time.html("Aired: Season 1-3/4~25/9/2011");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1251,11 +1122,8 @@ $("#아즈망가-대왕 > img").click(function(){
             gerne.html("Gerne: Comedy, School, Slice of Life");
             episodes.html("Episodes: 26 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>9/4~1/10/2002<br>");
-=======
             time.html("Aired: 9/4~1/10/2002");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1268,11 +1136,8 @@ $("#암살교실 > img").click(function(){
             gerne.html("Gerne: Action, Comedy, School");
             episodes.html("Episodes: <br> Season 1-22 Episodes <br> Season 2-25 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-10/1~20/6/2015 <br> Season 2-8/1~1/7/2016<br>");
-=======
             time.html("Aired: Season 1-10/1~20/6/2015 <br> Season 2-8/1~1/7/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1285,11 +1150,8 @@ $("#사카모토입니다만 > img").click(function(){
             gerne.html("Gerne: Comedy, School");
             episodes.html("Episodes: <br>12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>8/4~1/7/2016<br>");
-=======
             time.html("Aired: 8/4~1/7/2016");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1302,11 +1164,8 @@ $("#사쿠라장의-애완그녀 > img").click(function(){
             gerne.html("Gerne: Comedy, Romance, School, Slice of Life, Drama");
             episodes.html("Episodes: <br> Season 1-24 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>9/10/2012~26/3/2013<br>");
-=======
             time.html("Aired: 9/10/2012~26/3/2013");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1319,11 +1178,8 @@ $("#하나야마타 > img").click(function(){
             gerne.html("Gerne: Comedy, School, Slice of Life");
             episodes.html("Episodes: <br> Season 1-12 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-8/7~23/9/2014<br>");
-=======
             time.html("Aired: Season 1-8/7~23/9/2014");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1336,11 +1192,8 @@ $("#울려라-유포니엄 > img").click(function(){
             gerne.html("Gerne: Drama, Music, School");
             episodes.html("Episodes: <br> Season 1-13 Episodes");
             source.html("Source: Manga");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-8/4~1/7/2015<br>");
-=======
             time.html("Aired: Season 1-8/4~1/7/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1353,11 +1206,8 @@ $("#플라스틱-메모리즈 > img").click(function(){
             gerne.html("Gerne: Drama, Romance, SF");
             episodes.html("Episodes: <br> 13 Episodes");
             source.html("Source: Doga Kobo Original");
-<<<<<<< HEAD
             time.html("Aired: <br>5/4~28/6/2015<br>");
-=======
             time.html("Aired: 5/4~28/6/2015");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });
@@ -1370,7 +1220,6 @@ $("#흑의-계약자 > img").click(function(){
             gerne.html("Gerne: Action, SF, Mystery");
             episodes.html("Episodes: <br> Season 1-25 Episodes <br> Season 2-12 Episodes");
             source.html("Source: Bones Original");
-<<<<<<< HEAD
             time.html("Aired: <br>Season 1-6/4~28/9/2007 <br> Season 2-9/10~25/12/2009<br>");
         },timeout);
     des.slideDown();
@@ -1593,9 +1442,7 @@ $("#별을-쫓는-아이 > img").click(function(){
             episodes.html("Episodes: 1 Episodes");
             source.html("Source: Shinkai Makoto Original");
             time.html("Aired: <br> 7/5/2011 <br>");
-=======
             time.html("Aired: Season 1-6/4~28/9/2007 <br> Season 2-9/10~25/12/2009");
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
         },timeout);
     des.slideDown();
     });

@@ -639,30 +639,20 @@ a.reverse {
 #Description {
 	margin-left: 0px;
 	width:280px;
-<<<<<<< HEAD
-=======
 	height: 1000px;
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
 	z-index: 11;
 	margin-top: 0px;
 	position: fixed;
 	margin-bottom:50px;
-<<<<<<< HEAD
 	top: 70px;
-=======
-	top: 40px;
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
 	background-color:white;
 	border-radius: 7px;
 	display: none;
 	clear: both;
 	float:right;
 	right:0%;
-<<<<<<< HEAD
 	overflow-y: auto;
 	max-height: 70%;
-=======
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
 }
 #Description ul {
 	padding-left:6px;

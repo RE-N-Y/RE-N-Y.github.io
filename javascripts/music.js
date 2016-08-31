@@ -1164,7 +1164,6 @@ $(document).ready(function(){
 			}
 		]);
 	});
-<<<<<<< HEAD
 	$("#Guilty-Crown h6").click(function(){
 		myPlaylist.setPlaylist([
 			{
@@ -1305,8 +1304,6 @@ $(document).ready(function(){
 			}
 		]);
 	});
-=======
->>>>>>> 028a3a94e1f99c9179bfd4315ac6a2712e110d46
 	/*$("# h6").click(function(){
 		myPlaylist.setPlaylist([
 			{
