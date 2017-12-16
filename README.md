@@ -39,24 +39,29 @@ things that you might want to check out.
   You may have noticed this icon hovering on the bottom right of the page. Just click on the icon and it will load a new page for
   recommendations. There are few sections that I categorized for your custom recommendations!
   
-  -Productions
+  - ### Productions
+  
     Like a certain anime Studio? Well, if you click on this section, it will show you all the major studios you might be interested in.
     It will show you the history, art-style, staffs... everything you need to know about the production to explore your taste for anime.
     
-  -Anime of the season
+  - ### Anime of the season
+  
     If you go to this section, you will encounter some of the new animes that I personally recommend seeing this season!
     Feel free to click on the info button to find more about the anime.
     
-  -Theme
+  - ### Theme
+  
     If you are a fan of certain theme, I have organized a gallery where you can click on the title of the theme on the top-left
     corner of the screen to get some anime recommendations based on that!
   
-  -Genres
+  - ### Genres
+  
     For people who might think my themes were too specific, I have organized another page so that you can find some recommendations
     by genre! You can click on the image carousel to get some info about the anime from myanimelist! The design of the page was
     inspired by Netflix's main page.
     
-  -Best of Anime
+  - ### Best of Anime
+  
     Some people may argue this, but I personally think these are the one of the best animes I have ever watched.
     Similar to Theme gallery, you can click on the titles of the anime to look at synopsis of the anime...
     No spoilers!
