@@ -2,6 +2,8 @@
 
 THE COLLECTOR is a personal anime gallery website I made for my own hobby. For anyone else who wants to use it, here are some
 things that you might want to check out.
+Here is the link to the website:
+http://re-n-y.github.io
 
 ## **1. Optimized for Desktop**
   It was around 3 to 4 years ago that I created this webiste when I just started coding. Back then, I did not know how to optimize a
