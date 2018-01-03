@@ -5,7 +5,7 @@ things that you might want to check out.
 Here is the link to the website:
 http://re-n-y.github.io
 
-## **1. Optimized for Desktop**
+## **1. Optimized for Desktop only**
   It was around 3 to 4 years ago that I created this webiste when I just started coding. Back then, I did not know how to optimize a
   website for mobile. Although I have attached a meta view tag to the html files, it is still recommended that you open it in a laptop
   for best user experience.
