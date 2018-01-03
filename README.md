@@ -70,4 +70,27 @@ http://re-n-y.github.io
     
 That is the introduction to my website and I hope you enjoy it if you happen to crash into it!
 
-#Screenshots
+# Screenshots
+### Main Page View 1
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Main%20Page.png)
+
+### Main Page View 2
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Main%20Page%20View%201.png)
+
+### Recommendations Page
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Anime%20Recommendations%20Page.png)
+
+### Anime of the Season Page
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Anime%20of%20the%20Season%20Recommendation%20Page.png)
+
+### Genre Recommendations Page
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Genre%20Recommendation%20Page.png)
+
+### Studio Recommendations Page
+
+![alt text](https://github.com/RE-N-Y/RE-N-Y.github.io/blob/master/img/Recommendation%20by%20Studio%201.png)
